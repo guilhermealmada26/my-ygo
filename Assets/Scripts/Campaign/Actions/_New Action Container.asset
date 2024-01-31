@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf2cd4b2154fc648a3d632a5c443d7d, type: 3}
+  m_Name: _New Action Container
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  actions:
+  - rid: 1706142493299703808
+  - rid: 1706142493299703813
+  - rid: 1706142493299703810
+  - rid: 1706142493299703812
+  references:
+    version: 2
+    RefIds:
+    - rid: 1706142493299703808
+      type: {class: DialogueAction, ns: BBG.Campaign, asm: Assembly-CSharp}
+      data:
+        character: {fileID: 11400000, guid: 852229394cfb5e14c9554e4e6b15682b, type: 2}
+        text: 5555555555
+    - rid: 1706142493299703810
+      type: {class: FadeScreenAction, ns: BBG.Campaign, asm: Assembly-CSharp}
+      data:
+        fadeType: 0
+        duration: 1
+    - rid: 1706142493299703812
+      type: {class: StartDuelAction, ns: BBG.Campaign, asm: Assembly-CSharp}
+      data:
+        ai: {fileID: 11400000, guid: afebde0cc6c27ef4a9e8d28440e9ad7c, type: 2}
+        opponent: {fileID: 11400000, guid: 4fd287593c4c76649afbce3b96e716e7, type: 2}
+        opponentDeck: {fileID: 11400000, guid: a15da8022b4d496469d396b11009cb52, type: 2}
+    - rid: 1706142493299703813
+      type: {class: ShowChoicesAction, ns: BBG.Campaign, asm: Assembly-CSharp}
+      data:
+        choices:
+        - text: 
+          actions: {fileID: 0}
+        - text: 
+          actions: {fileID: 0}
+        - text: 
+          actions: {fileID: 0}

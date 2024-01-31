@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: MajesticMechOhka
+  m_EditorClassIdentifier: 
+  FileName: MajesticMechOhka
+  sprite: {fileID: 21300000, guid: d504b85b73d789e45b174c3fe2dc7310, type: 3}
+  cardName: Majestic Mech - Ohka
+  description: "You can Normal Summon this card without Tributing. \nIf you do, during
+    the End Phase: Send it to the Graveyard."
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 8d6ea55f8a2d809488ea4e0ee6cce94b, type: 2}
+  - {fileID: 11400000, guid: ba9b73cb789b1fb4a9bfe37ee35a9895, type: 2}
+  atk: 2400
+  def: 1400
+  customAtkDefText: 
+  lvl: 6
+  attribute: {fileID: 11400000, guid: 4eaf03bcc45af67469fb5431cda021f8, type: 2}
+  monsterType: {fileID: 11400000, guid: aabfd935739705a43978d1cdb85ac105, type: 2}
+  hologram: {fileID: 21300000, guid: a565dff4f5bc3c74fa42310c58d9b825, type: 3}
+  atkAnimation: {fileID: 0}

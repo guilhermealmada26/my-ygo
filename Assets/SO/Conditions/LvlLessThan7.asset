@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac659b70aa498543ae6758f2caabd60, type: 3}
+  m_Name: LvlLessThan7
+  m_EditorClassIdentifier: 
+  FileName: LvlLessThan7
+  valueGetter: {fileID: 11400000, guid: ea679f28821944641a5c3d21aa864461, type: 2}
+  toCompareGetter: {fileID: 11400000, guid: 13ac6b691eac3654e860e09ca26f1538, type: 2}
+  comparison: 1

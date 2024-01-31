@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69ee57593bd9b545bb857e4f24392f0, type: 3}
+  m_Name: LowestAtk_OppMonstersField
+  m_EditorClassIdentifier: 
+  FileName: LowestAtk_OppMonstersField
+  cardsGetter: {fileID: 11400000, guid: ab621a55e18d07b49aefc3b5385e4e1c, type: 2}
+  valueGetter: {fileID: 11400000, guid: c5603ce4bfa09844292ab037093c9bcb, type: 2}
+  comparison: 1

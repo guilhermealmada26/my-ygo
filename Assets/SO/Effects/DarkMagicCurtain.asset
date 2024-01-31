@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff3c42eba598814caa7f9a6af753fe8, type: 3}
+  m_Name: DarkMagicCurtain
+  m_EditorClassIdentifier: 
+  FileName: DarkMagicCurtain
+  type: 1
+  features: []
+  cost: {fileID: 11400000, guid: db3285c451b974244abd4c46cc9cc2ee, type: 2}
+  conditions: []
+  delayResolve: 1
+  effects:
+  - {fileID: 11400000, guid: c785689ebbeb9c34bb6acdaf67dcb864, type: 2}
+  - {fileID: 11400000, guid: bf1127c198d9bc24a97eb1694bd4ef99, type: 2}

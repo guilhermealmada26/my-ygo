@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: ThousandEyesRestrict
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: f879b5df36b9b304d828e3abc7186f0c, type: 3}
+  cardName: Thousand-Eyes Restrict
+  description: "1 \"Relinquished\" + 1 \"Thousand-Eyes Idol\"\r.\n\nOther monsters
+    on the field cannot change their battle positions or attack. \n\nOnce per turn:
+    You can equip 1 monster your opponent controls to this card. (You can only equip
+    1 monster at a time to this card with this effect.) This card's ATK and DEF become
+    equal to that equipped monster's. \n\nIf this card would be destroyed by battle,
+    destroy that equipped monster instead."
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 7b4fbad279a1dd242bf2b7cbf4608d86, type: 2}
+  - {fileID: 11400000, guid: 6006c56923d3f324cbbab35366342106, type: 2}
+  - {fileID: 11400000, guid: 7f29f0b78e8a00e4d96c3ff72e5a12c1, type: 2}
+  - {fileID: 11400000, guid: 0528fbff990c2164698312df51a94f75, type: 2}
+  - {fileID: 11400000, guid: c36bf8321ddbbe4499437b7acd696692, type: 2}
+  atk: 0
+  def: 0
+  customAtkDefText: 
+  lvl: 1
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: b88aa8716abf3344bbdf1a4a8fdb133d, type: 2}
+  hologram: {fileID: 21300000, guid: e56f04b0e8e8a2546994517c3c581077, type: 3}
+  atkAnimation: {fileID: 0}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 6efe8919ef75405479debcdd0b7c543e, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: bf475e1f20b54b54ba50d228797fc96d, type: 2}
+    min: 1
+    max: 1

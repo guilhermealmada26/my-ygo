@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfa651be220f72b4aa8e0f7d83eeea1d, type: 3}
+  m_Name: AnyFusionLvlEqualTo
+  m_EditorClassIdentifier: 
+  FileName: AnyFusionLvlEqualTo
+  cardsGetter: {fileID: 11400000, guid: 08a0184fbde0f634dbf6088a1dfc72ee, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 93c52fb4e7c3133428647f0706f6e6c4, type: 2}
+  intGetter: {fileID: 11400000, guid: ea679f28821944641a5c3d21aa864461, type: 2}
+  comparison: 0

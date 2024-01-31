@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: EmpoweredKoumoriDragon
+  m_EditorClassIdentifier: 
+  FileName: EmpoweredKoumoriDragon
+  sprite: {fileID: 21300000, guid: 591ce44ed5e67f649a0618646ccc9f61, type: 3}
+  cardName: Empowered Koumori Dragon
+  description: '1 "Koumori Dragon" + 1 dragon-type monster.
+
+'
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 2300
+  def: 1800
+  lvl: 7
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: 2ff970e35577b03408e0e04a09ad35d9, type: 3}
+  atkAnimation: {fileID: 11400000, guid: 6b762d39741bba246ac3e1eab9a4c1a4, type: 2}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 7203fbc01603f64449dc587ca2abc040, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: 0f047a04a6a7cfc48bbe028dbeab2cdc, type: 2}
+    min: 1
+    max: 1

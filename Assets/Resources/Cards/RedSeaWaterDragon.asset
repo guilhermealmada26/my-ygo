@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: RedSeaWaterDragon
+  m_EditorClassIdentifier: 
+  FileName: RedSeaWaterDragon
+  sprite: {fileID: 21300000, guid: 1e145c1eba357764284d8ebf275dedd0, type: 3}
+  cardName: Red Sea Water Dragon
+  description: A water monster projected as a dragon from the legendary Red Sea.
+    It guards the borders spitting its water from his mouth with temperature high
+    enough to melt armor and foe alike.
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 1800
+  def: 1400
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 1d31cb93ac4196d41817bc76c9edeb28, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: 7986ed89c40fd9a4ab9351c2c7c67f93, type: 3}
+  atkAnimation: {fileID: 11400000, guid: 4a7a4846d58cfa54684b5cf51793dd8e, type: 2}

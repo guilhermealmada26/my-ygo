@@ -1,0 +1,35 @@
+﻿namespace BBG.Dueling
+{
+    public enum EventName
+    {
+        DrawCardsAction,
+        NormalSummon,
+        SetSummon,
+        SetCardAction,
+        SpecialSummon,
+        DiscardAction,
+        TributeAction,
+        FlipSummon,
+        ChangePositionAction,
+        FlipPositionAction,
+        DestroyAction,
+        MoveCardAction,
+        DiscardResolved,
+        ChangeControlAction,
+        ChangeTurnAction,
+        ModifyIntStat,
+        AttackAction,
+        ChangeLPAction,
+        BattleAction,
+        AddEffectsAction,
+        AttackSelection,
+        ActivationAction,
+        EquipAction,
+        CardMovedAction,
+        ChangePhaseAction,
+        DamageCalculation,
+        ResolveAction,
+        SummonAction,
+        MaterialDiscard,
+    }
+}

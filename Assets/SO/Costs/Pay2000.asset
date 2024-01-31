@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ed12c2d3662fc49aa029bf2b319f7b, type: 3}
+  m_Name: Pay2000
+  m_EditorClassIdentifier: 
+  type: 2
+  features: []
+  cost: {fileID: 0}
+  conditions: []
+  target: 0
+  playersGetter: {fileID: 0}
+  value: {fileID: 11400000, guid: a44b339200e0bbe4e8e3c22275ffbd34, type: 2}
+  heal: 0
+  reason: 3

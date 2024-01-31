@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: BasicInsect
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: ba0de7134bffec949a6456ca8ce32267, type: 3}
+  cardName: Basic Insect
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: Usually found traveling in swarms, this creature's ideal environment
+    is the forest.
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 59ed18c7e2572d5428abaa35f9d56189, type: 2}
+  atk: 500
+  def: 700
+  lvl: 2
+  hologram: {fileID: 21300000, guid: 857aedcb551397d4fbdece12e0319114, type: 3}
+  atkAnimation: {fileID: 0}

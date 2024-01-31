@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: TornadoWall
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 19c8e9ac282690546b73af892af6b22c, type: 3}
+  cardName: Tornado Wall
+  type: {fileID: 11400000, guid: 8e4b595da28c70c40ac867e0ed8d83ec, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: "Activate only while \"Umi\" is on the field. \n\nWhile \"Umi\" is
+    face-up on the field, you take no Battle Damage."
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 07ef1a00fd6c09547a8e6ffdba783cb5, type: 2}

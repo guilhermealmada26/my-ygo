@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Kabazauls
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 7855897b0bf05eb46bfd9a8a75a06b41, type: 3}
+  cardName: Kabazauls
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: A huge monster in the shape of a hippopotamus. The sneezing from his
+    gigantic body is so fierce that people mistake it for a hurricane.
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 1d31cb93ac4196d41817bc76c9edeb28, type: 2}
+  monsterType: {fileID: 11400000, guid: 6ada704636753d441861074c0a1ca3a8, type: 2}
+  atk: 1700
+  def: 1500
+  lvl: 4
+  hologram: {fileID: 21300000, guid: 53407eb32f32bf447a698dd274a2415b, type: 3}
+  atkAnimation: {fileID: 0}

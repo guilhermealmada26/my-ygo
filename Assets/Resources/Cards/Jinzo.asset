@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Jinzo
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: b705b91fb1de60a41b4abaa5f8826fc6, type: 3}
+  cardName: Jinzo
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  description: (Face-up effect) Trap Cards, and their effects on the field, cannot
+    be activated. Negate all Trap effects on the field.
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 5fe7475253c62d844964a2a8f6d230a4, type: 2}
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 48f14d28226a7ac4bbf94e271c091023, type: 2}
+  atk: 2400
+  def: 1600
+  lvl: 6
+  hologram: {fileID: 21300000, guid: ade5cf8ee7ef4a3419827d4a2c400f60, type: 3}
+  atkAnimation: {fileID: 0}

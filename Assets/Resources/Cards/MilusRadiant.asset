@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: MilusRadiant
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 91d3d85771ad6d04784f6c04c41261d9, type: 3}
+  cardName: Milus Radiant
+  description: '(Face-up effect): Increase the ATK of all EARTH monsters by 500 points
+    and decrease the ATK of all WIND monsters by 400 points.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 4817556a9fe1d80469503e49dbcce49a, type: 2}
+  atk: 300
+  def: 250
+  customAtkDefText: 
+  lvl: 1
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 49bd76bb327d29b43a22bb3787697281, type: 2}
+  hologram: {fileID: 21300000, guid: 5a523fd384e30d94b98c651b389367b8, type: 3}
+  atkAnimation: {fileID: 0}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32be2367b3f0ceb4c99d6dea16bf3a86, type: 3}
+  m_Name: PoisonOldMan
+  m_EditorClassIdentifier: 
+  FileName: PoisonOldMan
+  type: 1
+  features: []
+  cost: {fileID: 0}
+  conditions: []
+  descriptions:
+  - "Gain 1200 LP.\r"
+  - Inflict 800 damage to your opponent.
+  effects:
+  - {fileID: 11400000, guid: 846316fbc96f4ba49af50ec8e2a1c85c, type: 2}
+  - {fileID: 11400000, guid: 99671cee39e153142a99cdfb4c018bee, type: 2}

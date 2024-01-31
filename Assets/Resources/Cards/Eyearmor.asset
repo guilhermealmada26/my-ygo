@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Eyearmor
+  m_EditorClassIdentifier: 
+  FileName: Eyearmor
+  sprite: {fileID: 21300000, guid: acfa881c912a8534b951347315fb93ad, type: 3}
+  cardName: Eyearmor
+  description: This warrior transforms into various creatures to confuse enemies
+    in battle.
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 600
+  def: 500
+  lvl: 2
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: b15c895d2ceb19740907d418ac2af09d, type: 3}
+  atkAnimation: {fileID: 11400000, guid: e9c6d9c7cba32404289caef222f42722, type: 2}

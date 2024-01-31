@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e1e6c42ba745148bacec4391700476, type: 3}
+  m_Name: Deck 2
+  m_EditorClassIdentifier: 
+  mainCard: {fileID: 11400000, guid: fdf4e3bad404f8944a25d3c83bb93de4, type: 2}
+  mainDeck:
+  - {fileID: 11400000, guid: 764290b7c34d5d141b83b987b8710ef2, type: 2}
+  - {fileID: 11400000, guid: 1a31570964bf8c94bb8afe117825734c, type: 2}
+  - {fileID: 11400000, guid: ec24e73730ffd7442bb80780a2de8dcf, type: 2}
+  - {fileID: 11400000, guid: ec24e73730ffd7442bb80780a2de8dcf, type: 2}
+  - {fileID: 11400000, guid: dec6ff5da826e1643aec30931d7295e0, type: 2}
+  - {fileID: 11400000, guid: cd47bdf46ee3c7e4ebf0a78da825e0de, type: 2}
+  - {fileID: 11400000, guid: cd47bdf46ee3c7e4ebf0a78da825e0de, type: 2}
+  - {fileID: 11400000, guid: 3a6584a3b5d18c544831222ef0c7d8a2, type: 2}
+  - {fileID: 11400000, guid: 314e21e449bb1a4469f9e7cefc5e80db, type: 2}
+  - {fileID: 11400000, guid: b299fb1a71d648446b090be276231915, type: 2}
+  - {fileID: 11400000, guid: b299fb1a71d648446b090be276231915, type: 2}
+  - {fileID: 11400000, guid: 2fbf3543269a6ab4d97c4965a3c9c29b, type: 2}
+  - {fileID: 11400000, guid: d47488c2f93be744f8786f9602facdac, type: 2}
+  - {fileID: 11400000, guid: d47488c2f93be744f8786f9602facdac, type: 2}
+  - {fileID: 11400000, guid: 0d93efe0b02f884408b8eca30d791e46, type: 2}
+  - {fileID: 11400000, guid: bf902607a4ba6614483217bc8230cfea, type: 2}
+  - {fileID: 11400000, guid: bf902607a4ba6614483217bc8230cfea, type: 2}
+  - {fileID: 11400000, guid: 3ed0ba81efe9c09408e1b43fe035f8be, type: 2}
+  - {fileID: 11400000, guid: debe7641267a1f946bcd490732a5e89f, type: 2}
+  extraDeck:
+  - {fileID: 11400000, guid: 5177ecdad428b184ca3cf68f1e295faa, type: 2}
+  - {fileID: 11400000, guid: fdf4e3bad404f8944a25d3c83bb93de4, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abe8da26c7617c479c84577e25eeb4f, type: 3}
+  m_Name: TimeMachine
+  m_EditorClassIdentifier: 
+  FileName: TimeMachine
+  type: 0
+  features:
+  - {fileID: 11400000, guid: 8aa3fca1291f70c41a455589b4f57d16, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: fd5db21e8fb94e349b84344433b51836, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 0ce457c768b07d544b785bd1ce2a33c9, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: c43b8b7de145d16458fb77d2b2465ba8, type: 2}
+  cardsSelection: {fileID: 0}
+  position: 
+  selectPosition: 1

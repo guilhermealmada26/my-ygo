@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: HeroicGift
+  m_EditorClassIdentifier: 
+  FileName: HeroicGift
+  sprite: {fileID: 21300000, guid: cf74dd88a8a44304b8bedaf851419b5d, type: 3}
+  cardName: Heroic Gift
+  description: 'Discard 1 Warrior-Type monster; draw 1 card.
+
+    (Once per turn,
+    by card name).'
+  type: {fileID: 11400000, guid: 7183fee88ea6976409563196a51f7fea, type: 2}
+  limitation: {fileID: 11400000, guid: 5f313634df87ddd4b8cb1a516fb9bfc6, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: baf001b54a46417439797e24db45270c, type: 2}

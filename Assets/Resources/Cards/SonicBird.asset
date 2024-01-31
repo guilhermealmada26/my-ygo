@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: SonicBird
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: c566e8d2f8b4b6142975105066b31ff9, type: 3}
+  cardName: Sonic Bird
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: 'When this card is Normal or Flip Summoned: You can add 1 Ritual Spell
+    from your Deck to your hand.'
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 21ea2d0d7cd151e4c9715d04d94397b1, type: 2}
+  monsterType: {fileID: 11400000, guid: cc5f7ef963715344da479e9b4403fe1f, type: 2}
+  atk: 1400
+  def: 1000
+  lvl: 4
+  hologram: {fileID: 21300000, guid: b005e5ca70b79ef4f97580061e1549a1, type: 3}
+  atkAnimation: {fileID: 0}

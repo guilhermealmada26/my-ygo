@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: 'Flint '
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 1dc723434ff03ac4a99c9abff2ef679b, type: 3}
+  cardName: 'Flint '
+  description: "\rA monster equipped with this card loses 300 ATK and cannot change
+    its Battle Position or attack. \n\nIf this card is destroyed because the equipped
+    monster is destroyed: Target 1 monster on the field; equip this card to that
+    monster."
+  type: {fileID: 11400000, guid: 8cbbdaadefab1d0499b4f05566f9b0dd, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 6dd54e255422f944f91e42fa4d09f33f, type: 2}
+  - {fileID: 11400000, guid: 3c01b17edc230b24ab09d212f9ed3927, type: 2}
+  - {fileID: 11400000, guid: 03678ce31bf530d43b8297c332e3d00c, type: 2}
+  - {fileID: 11400000, guid: 22f94833de4160e468654fe98de8ff6d, type: 2}
+  - {fileID: 11400000, guid: 00922b2a7fdfc464ba9055ac16eaed06, type: 2}

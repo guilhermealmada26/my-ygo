@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: SnatchSteal
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 0a0356ba82dedc743a85a8ad0c8959e6, type: 3}
+  cardName: Snatch Steal
+  description: "Equip only to a monster your opponent controls. Take control of the
+    equipped monster. \n\nWhile this card is face-up on the field, at the start of
+    your opponent Main Phase: Your opponent gains 1000 Life Points."
+  type: {fileID: 11400000, guid: 8cbbdaadefab1d0499b4f05566f9b0dd, type: 2}
+  limitation: {fileID: 11400000, guid: fb037efb848de0c4bbd97cec639d9dbc, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: bf59b6a5f49550944a9e242eff06ff42, type: 2}
+  - {fileID: 11400000, guid: 76c5758b7cf9bb5499bd1b4fcbd453e3, type: 2}
+  - {fileID: 11400000, guid: 57aa7f2e8d519ee448bf70992adcc039, type: 2}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: MythicTreeDragon
+  m_EditorClassIdentifier: 
+  FileName: MythicTreeDragon
+  sprite: {fileID: 21300000, guid: c4d17b00c74b4374da71a51a3c829414, type: 3}
+  cardName: Mythic Tree Dragon
+  description: "Cannot be Normal/Set Summoned.\n\nCan only be Special Summoned (from
+    your hand) by banishing 1 dragon-type monster from your GY. \n\nIf this cards
+    is on the field and destroys an opponent's monster by battle: you gain 700 life
+    points.\n\n"
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 75635fb5a174428478c773cd9d0da49f, type: 2}
+  - {fileID: 11400000, guid: 3263f78462565194a9d8d5a159fe611f, type: 2}
+  - {fileID: 11400000, guid: e098cf3878a31114ea1628c08e9b3632, type: 2}
+  atk: 1950
+  def: 1700
+  lvl: 5
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: 9ffe73885d4d79049a27375aac974e5e, type: 3}
+  atkAnimation: {fileID: 11400000, guid: 8311be780a05c58468e5fbd64b8fc0aa, type: 2}

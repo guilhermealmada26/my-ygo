@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563848758b31bde4b9a276ef18e4b477, type: 3}
+  m_Name: HornUnicornReturnToDeck
+  m_EditorClassIdentifier: 
+  FileName: HornUnicornReturnToDeck
+  type: 0
+  features:
+  - {fileID: 11400000, guid: b7a702d759a74d042a93b2d024884a7a, type: 2}
+  - {fileID: 11400000, guid: b1368ea61de614f4289db8406b74f191, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 3faf025e7035eb6448f1d9bb5d062da6, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 13735398f1cc6f34a93c116b753d10e4, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  destination: 0
+  reason: 2

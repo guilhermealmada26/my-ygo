@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: AirknightParshath
+  m_EditorClassIdentifier: 
+  FileName: AirknightParshath
+  sprite: {fileID: 21300000, guid: ff6d8ad79a6679947a68a246dca5e520, type: 3}
+  cardName: Airknight Parshath
+  description: "If this card attacks a Defense Position monster, inflict piercing
+    battle damage to your opponent. \n\nWhen this card inflicts battle damage to
+    your opponent: Draw 1 card."
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 8c0e2716132921d4fbd63643515adf73, type: 2}
+  - {fileID: 11400000, guid: 57f4e46c6b9084f428571f911fe4d572, type: 2}
+  atk: 1900
+  def: 1400
+  customAtkDefText: 
+  lvl: 5
+  attribute: {fileID: 11400000, guid: 4eaf03bcc45af67469fb5431cda021f8, type: 2}
+  monsterType: {fileID: 11400000, guid: aabfd935739705a43978d1cdb85ac105, type: 2}
+  hologram: {fileID: 21300000, guid: fb8e2e07f5fc7ac489fa0d97ca4dedac, type: 3}
+  atkAnimation: {fileID: 11400000, guid: 12a717d2874374c4da1db87df65250f7, type: 2}

@@ -1,0 +1,164 @@
+{
+    "registries": [
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Player 1",
+            "winReason": 0,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Player 1",
+            "winReason": 0,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Player 1",
+            "winReason": 0,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Buster Blader 2",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Player 1",
+            "winReason": 0,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Buster Blader 2",
+            "duelTag": "_CampaignSetup/BusterBlader",
+            "winnerName": "Player 1",
+            "winReason": 0,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Abaki",
+            "duelTag": "_CampaignSetup/Abaki",
+            "winnerName": "Abaki",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Abaki",
+            "duelTag": "_CampaignSetup/Abaki",
+            "winnerName": "Abaki",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Abaki",
+            "duelTag": "_CampaignSetup/Abaki",
+            "winnerName": "Player 1",
+            "winReason": 0,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Abaki",
+            "duelTag": "_CampaignSetup/Abaki",
+            "winnerName": "Abaki",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Abaki",
+            "duelTag": "_CampaignSetup/Abaki",
+            "winnerName": "Abaki",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Celtic Guardian",
+            "duelTag": "_CampaignSetup/Celtic Guardian",
+            "winnerName": "Celtic Guardian",
+            "winReason": 4,
+            "opponentControl": 1
+        },
+        {
+            "playerName": "Player 1",
+            "opponentName": "Celtic Guardian",
+            "duelTag": "_CampaignSetup/Celtic Guardian",
+            "winnerName": "Player 1",
+            "winReason": 0,
+            "opponentControl": 1
+        }
+    ]
+}

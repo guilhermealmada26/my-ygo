@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: OceanDragonLord
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: f298e6f51c92f0e499bb89f9b5b3ea81, type: 3}
+  cardName: Ocean Dragon Lord - Neo-Daedalus
+  type: {fileID: 11400000, guid: acc828958dd0ec047be305c443ed4754, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: '"Levia-Dragon - Daedalus" + "Umi" + 1 WATER monster.
+
+
+    You can
+    send "Umi" you control to the Graveyard; send all cards in both players'' hands
+    and on the field to the Graveyard, except this card.'
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 47e6f62f052fda146b1c7792c9ce5291, type: 2}
+  attribute: {fileID: 11400000, guid: 1d31cb93ac4196d41817bc76c9edeb28, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  atk: 2900
+  def: 2400
+  lvl: 9
+  hologram: {fileID: 21300000, guid: b97204b90d290394da66ccd13e17beac, type: 3}
+  atkAnimation: {fileID: 0}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 59e2dca15edef2749bd5e6be965f5b9b, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: a513de3a82f3654438ba0bce73b7b5d7, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: fdac49d8831e0714b98bc1d05aec6c80, type: 2}
+    min: 1
+    max: 1

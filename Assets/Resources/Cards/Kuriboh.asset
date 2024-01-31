@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Kuriboh
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 16386297f625d10479331b5638b4479d, type: 3}
+  cardName: Kuriboh
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: 'When your opponent''s monster attacks (Quick Effect): You can discard
+    this card; you take no battle damage from that battle.'
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 27f801a28086072458bdd511caa0176c, type: 2}
+  atk: 300
+  def: 200
+  lvl: 1
+  hologram: {fileID: 21300000, guid: 8b31dd871b9cf03469c85288480baba4, type: 3}
+  atkAnimation: {fileID: 0}

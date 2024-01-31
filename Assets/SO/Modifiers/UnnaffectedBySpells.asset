@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1dc13e7418a6b64aa2331966683a21b, type: 3}
+  m_Name: UnnaffectedBySpells
+  m_EditorClassIdentifier: 
+  FileName: UnnaffectedBySpells
+  type: 0
+  features:
+  - {fileID: 11400000, guid: 8d66bc9e74223ed4fb05c4f4c19bb569, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  applyOnSetup: 0
+  isFaceUpEffect: 1
+  eventNames: 050000000600000008000000090000000a0000000b0000000d0000000f00000013000000
+  locations: 05000000
+  callerFilter:
+  - {fileID: 11400000, guid: 4de438a82648815438f42642d22e1fc0, type: 2}

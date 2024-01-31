@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: UnshavenAngler
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 438a6c1686c68d847bcce9a1010a543f, type: 3}
+  cardName: Unshaven Angler
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: This card can be treated as 2 Tributes for the Tribute Summon of a
+    WATER monster.
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 9545f2e7851f35c468ecafb64c345a81, type: 2}
+  attribute: {fileID: 11400000, guid: 1d31cb93ac4196d41817bc76c9edeb28, type: 2}
+  monsterType: {fileID: 11400000, guid: 406e68d5be111b24394c028eb3e527f6, type: 2}
+  atk: 1500
+  def: 1600
+  lvl: 4
+  hologram: {fileID: 21300000, guid: 6ac77aaffe83408418e4ad6b8dfb1582, type: 3}
+  atkAnimation: {fileID: 0}

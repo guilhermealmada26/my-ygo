@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Editor/UXML/styles.uss?fileID=7433441132597879392&amp;guid=81bb82818b709d44d886031ea7eaac20&amp;type=3#styles" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; height: auto;">
+        <ui:IMGUIContainer name="Icon" style="height: 21px; background-image: url(&apos;project://database/Assets/Images/Cards/abaki.jpg?fileID=2800000&amp;guid=5610ee2ffd800e34cba45e984c06ae40&amp;type=3#abaki&apos;); width: 21px; opacity: 1; left: auto; justify-content: center; align-items: stretch; align-self: center; -unity-background-scale-mode: scale-to-fit;" />
+        <ui:Label tabindex="-1" text="Label and " display-tooltip-when-elided="true" style="width: 80%; margin-left: 4px; -unity-text-align: middle-left; -unity-font-style: normal;" />
+    </ui:VisualElement>
+</ui:UXML>

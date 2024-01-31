@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1836929eba4b57045bcc0e6fb811d09b, type: 3}
+  m_Name: Destroyed_YourFireMonsterByBattle
+  m_EditorClassIdentifier: 
+  FileName: Destroyed_YourFireMonsterByBattle
+  selfWasDestroyed: 0
+  cardIsDestroyer: 0
+  reasons: 01000000
+  actionCardFilters:
+  - {fileID: 11400000, guid: c43b8b7de145d16458fb77d2b2465ba8, type: 2}
+  - {fileID: 11400000, guid: c9874b897420d8848b861743e24288fd, type: 2}
+  - {fileID: 11400000, guid: 92ab27bafba2a064ba8f303cd6db68a2, type: 2}
+  actionCallerFilters: []

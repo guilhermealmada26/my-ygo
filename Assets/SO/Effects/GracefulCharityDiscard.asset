@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51529b59071fa14aa748a3e6861623f, type: 3}
+  m_Name: GracefulCharityDiscard
+  m_EditorClassIdentifier: 
+  FileName: GracefulCharityDiscard
+  type: 0
+  features:
+  - {fileID: 11400000, guid: a20c47ff4c1a3a94986ce70603892141, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 07287f2829a5b8a40b1ec7bfa608cc0f, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 11400000, guid: 135235d3f318f7244aaa9a7e1e61f690, type: 2}
+  reason: 2

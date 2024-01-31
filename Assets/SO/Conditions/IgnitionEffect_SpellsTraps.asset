@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f36b2d679896ced4c8006ad4c7075d9a, type: 3}
+  m_Name: IgnitionEffect_SpellsTraps
+  m_EditorClassIdentifier: 
+  FileName: IgnitionEffect_SpellsTraps
+  isAny: 0
+  conditions:
+  - {fileID: 11400000, guid: f163825e645832c40811d9446b8beb5c, type: 2}
+  - {fileID: 11400000, guid: b30d70cf5afce67448d3e1d23d8a8645, type: 2}
+  - {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}

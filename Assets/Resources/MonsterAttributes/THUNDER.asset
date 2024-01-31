@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece373c096d29a84fb3a5433632ff06f, type: 3}
+  m_Name: THUNDER
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: e8819180c9034bb419d53fbb5ac3aba6, type: 3}
+  attributeName: THUNDER
+  color: {r: 0.9607844, g: 0.8862746, b: 0.25882354, a: 1}
+  attackAnimation: {fileID: 11400000, guid: b99ca7bcb8547334da9ec6f89319d5f9, type: 2}

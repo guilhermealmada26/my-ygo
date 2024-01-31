@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537b36ce9b335e646b7d08afa722314a, type: 3}
+  m_Name: SpiritRyu
+  m_EditorClassIdentifier: 
+  type: 0
+  features:
+  - {fileID: 11400000, guid: 9b205fece05d6d34f8ff1b1d146e6192, type: 2}
+  - {fileID: 11400000, guid: fcbc1b93f5a59f34fa8b41eba233219b, type: 2}
+  - {fileID: 11400000, guid: 74ad9261bc232564ea6a1dd786e5bb4f, type: 2}
+  cost: {fileID: 11400000, guid: 87bb71eaafd176549abdc8b376295e15, type: 2}
+  conditions:
+  - {fileID: 11400000, guid: 6d8769b5fa42f8d43abac257e83660f0, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 0ce457c768b07d544b785bd1ce2a33c9, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: c43b8b7de145d16458fb77d2b2465ba8, type: 2}
+  - {fileID: 11400000, guid: 0f047a04a6a7cfc48bbe028dbeab2cdc, type: 2}
+  - {fileID: 11400000, guid: d4f6081f8893e31488c7849e306d402e, type: 2}
+  cardsSelection: {fileID: 0}
+  cumulativeResolve: 0
+  modifiers:
+  - condition: {fileID: 11400000, guid: 0f047a04a6a7cfc48bbe028dbeab2cdc, type: 2}
+    field: 0
+    valueGetter: {fileID: 11400000, guid: bc6959b87ef7e60448e857af89f97073, type: 2}
+  - condition: {fileID: 11400000, guid: 0f047a04a6a7cfc48bbe028dbeab2cdc, type: 2}
+    field: 1
+    valueGetter: {fileID: 11400000, guid: bc6959b87ef7e60448e857af89f97073, type: 2}

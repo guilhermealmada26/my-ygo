@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: DDWarriorLady
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: db2d5d6cfc523d24ebe5262c962f58be, type: 3}
+  cardName: D.D. Warrior Lady
+  description: 'After damage calculation, when this card battles an opponent''s monster:
+    You can banish that monster, also banish this card.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 5f313634df87ddd4b8cb1a516fb9bfc6, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 39ad0176238a78d4e8bbfbf9300a53c8, type: 2}
+  atk: 1500
+  def: 1600
+  customAtkDefText: 
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 4eaf03bcc45af67469fb5431cda021f8, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: 0d65885f3b6043b4da8257576a94c54c, type: 3}
+  atkAnimation: {fileID: 0}

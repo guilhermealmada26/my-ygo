@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22e94b760d85064da590cadac46d406, type: 3}
+  m_Name: RemoteDuel
+  m_EditorClassIdentifier: 
+  musicName: 
+  startingPlayerID: -1
+  player:
+    name: Opponent
+    imageName: abaki
+    control: 0
+    initialLP: 8000
+    initialDrawCount: 5
+    mainDeck:
+    - BlackDragonJungleKing
+    - DragonSacrifice
+    - WarriorZera
+    - SpiritRyu
+    - HeroicGift
+    - ElementalHeroSteamHealer
+    - LancerDragonute
+    - AleisterInvoker
+    - LariohLightningStrike
+    - KoumoriDragon
+    - ThunderDragon
+    - LariohLightningWarrior
+    - GoddessThirdEye
+    - MatazaZapper
+    - KamikazeAttack
+    - QueenKnight
+    - TurtleOath
+    - AmphibiousBugroth
+    - DragonMirror
+    - CrabTurtle
+    - ParallelWarriorFusion
+    - AleisterInvoker
+    - DragonDwellingCave
+    - ShiningSlash
+    - AmazonessWillpower
+    - ThunderDragon
+    - Invocation
+    - GoddessThirdEye
+    extraDeck:
+    - InvokedMagellanica
+    - DarkPaladin
+    - CyberTwinDragon
+    - CyberEndDragon
+    - BlueEyesUltimateDragon
+    - FiveHeadedDragon
+    - InvokedMechaba
+    - InvokedPurgatrio
+    - InvokedCaliga
+    - ArcanaQueen'sKnight
+    - TridentDragon
+    - ColossalFighter
+    - EmpoweredKoumoriDragon
+  opponent:
+    name: Opponent
+    imageName: abaki
+    control: 2
+    initialLP: 8000
+    initialDrawCount: 5
+    mainDeck:
+    - BlackDragonJungleKing
+    - DragonSacrifice
+    - WarriorZera
+    - SpiritRyu
+    - HeroicGift
+    - ElementalHeroSteamHealer
+    - LancerDragonute
+    - AleisterInvoker
+    - LariohLightningStrike
+    - KoumoriDragon
+    - ThunderDragon
+    - LariohLightningWarrior
+    - GoddessThirdEye
+    - MatazaZapper
+    - KamikazeAttack
+    - QueenKnight
+    - TurtleOath
+    - AmphibiousBugroth
+    - DragonMirror
+    - CrabTurtle
+    - ParallelWarriorFusion
+    - AleisterInvoker
+    - DragonDwellingCave
+    - ShiningSlash
+    - AmazonessWillpower
+    - ThunderDragon
+    - Invocation
+    - GoddessThirdEye
+    extraDeck:
+    - InvokedMagellanica
+    - DarkPaladin
+    - CyberTwinDragon
+    - CyberEndDragon
+    - BlueEyesUltimateDragon
+    - FiveHeadedDragon
+    - InvokedMechaba
+    - InvokedPurgatrio
+    - InvokedCaliga
+    - ArcanaQueen'sKnight
+    - TridentDragon
+    - ColossalFighter
+    - EmpoweredKoumoriDragon
+  extenders:
+  - {fileID: 11400000, guid: 4dfcacfe8af70d245b5337064a921dc4, type: 2}
+  - {fileID: 11400000, guid: d991bf2deff5ef54aac8600a4151a004, type: 2}

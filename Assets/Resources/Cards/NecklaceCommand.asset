@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: NecklaceCommand
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 01950c78e826be64fb353d1d10fd1b28, type: 3}
+  cardName: Necklace of Command
+  description: "If this card is destroyed because the equipped monster is destroyed,
+    you can either:\r\n\u25CF Draw 1 card. OR\r\n\u25CF Discard 1 random card from
+    your opponent's hand."
+  type: {fileID: 11400000, guid: 8cbbdaadefab1d0499b4f05566f9b0dd, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 6dd54e255422f944f91e42fa4d09f33f, type: 2}
+  - {fileID: 11400000, guid: 4a0af6609d49b384a8a3302c65e836d4, type: 2}

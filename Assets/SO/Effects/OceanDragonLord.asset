@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563848758b31bde4b9a276ef18e4b477, type: 3}
+  m_Name: OceanDragonLord
+  m_EditorClassIdentifier: 
+  type: 1
+  features: []
+  cost: {fileID: 11400000, guid: e8fd35016bf35fd439de2ea0d0bce0ea, type: 2}
+  conditions:
+  - {fileID: 11400000, guid: 58d982350448c5a4eba5907e64cdbb1d, type: 2}
+  cardsGetter: {fileID: 11400000, guid: efac450c3dca427409158896fb30cc9b, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 4a064f00a8c34f24892700d8beb5c71d, type: 2}
+  cardsSelection: {fileID: 0}
+  destination: 3
+  reason: 2

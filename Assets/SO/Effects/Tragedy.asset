@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3c26ceb80f9484f9417f502965a9ac, type: 3}
+  m_Name: Tragedy
+  m_EditorClassIdentifier: 
+  FileName: Tragedy
+  type: 0
+  features:
+  - {fileID: 11400000, guid: 473732e63659d10428f463a6f25be34b, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 171540ce134d09b4a93baa4c9a8db3ff, type: 2}
+  cardsGetter: {fileID: 11400000, guid: ab621a55e18d07b49aefc3b5385e4e1c, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: a26eab319307a5340a4c4b17cd2227ec, type: 2}
+  cardsSelection: {fileID: 0}

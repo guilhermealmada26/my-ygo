@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff3c42eba598814caa7f9a6af753fe8, type: 3}
+  m_Name: Eldlich_SummonEff
+  m_EditorClassIdentifier: 
+  type: 5
+  features: []
+  cost: {fileID: 11400000, guid: 8c0936282baf24e409536a822e50b1ed, type: 2}
+  conditions:
+  - {fileID: 11400000, guid: fc78d0a6d4e3b5d4e97151dfa44c8da5, type: 2}
+  - {fileID: 11400000, guid: 92ab27bafba2a064ba8f303cd6db68a2, type: 2}
+  delayResolve: 1
+  effects:
+  - {fileID: 11400000, guid: c8bc6197b9f95cf4bb0bd74eea4848d0, type: 2}
+  - {fileID: 11400000, guid: 76f42f0157c85684ab50e492f6c4fcb3, type: 2}
+  - {fileID: 11400000, guid: f55ad56a1d896ea4fba1cfa559cc7379, type: 2}
+  - {fileID: 11400000, guid: 073e72c60624cc44ea0a352f7bf804cd, type: 2}
+  - {fileID: 11400000, guid: fdcfdfadf8ac2214da3a628d9d907598, type: 2}

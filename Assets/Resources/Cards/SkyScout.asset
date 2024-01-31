@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: SkyScout
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 1a21de90b5f194843bd625f3847ab4bc, type: 3}
+  cardName: Sky Scout
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: With eyes like a hawk and a flying speed exceeding Mach 5, this monster
+    is a master of the sky.
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 21ea2d0d7cd151e4c9715d04d94397b1, type: 2}
+  monsterType: {fileID: 11400000, guid: cc5f7ef963715344da479e9b4403fe1f, type: 2}
+  atk: 1800
+  def: 600
+  lvl: 4
+  hologram: {fileID: 21300000, guid: cff271061242812418cd59d12a4f09a2, type: 3}
+  atkAnimation: {fileID: 0}

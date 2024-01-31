@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: CostDown
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 992b042dc6d5b2e46a7cae04e00f3aa7, type: 3}
+  cardName: Cost Down
+  description: Discard 1 card; for the rest of this turn, reduce the Levels of all
+    monsters in your hand by 2 until the end of this turn.
+  type: {fileID: 11400000, guid: 7183fee88ea6976409563196a51f7fea, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 432e461b5e6aabe4baba7777b7509d93, type: 2}

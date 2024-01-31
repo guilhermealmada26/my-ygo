@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: GilfordLightning
+  m_EditorClassIdentifier: 
+  FileName: GilfordLightning
+  sprite: {fileID: 21300000, guid: 3e6f0655eb5f63c4c90d44bdc94be6c9, type: 3}
+  cardName: Gilford the Lightning
+  description: 'You can Tribute 3 monsters to Tribute Summon (but not Set) this card.
+    If Summoned this way: Destroy all monsters your opponent controls.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 01add923402c874418f3cfbdaea9ca23, type: 2}
+  - {fileID: 11400000, guid: 33812e325e24fe7448e7e615c7f32dd5, type: 2}
+  atk: 2800
+  def: 1400
+  customAtkDefText: 
+  lvl: 8
+  attribute: {fileID: 11400000, guid: e64fa39518f77914b9b308094f9a3c51, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: 6b400c55596c6e64abaee2e0b80aa8dd, type: 3}
+  atkAnimation: {fileID: 11400000, guid: b99ca7bcb8547334da9ec6f89319d5f9, type: 2}

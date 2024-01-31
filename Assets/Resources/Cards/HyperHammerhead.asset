@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: HyperHammerhead
+  m_EditorClassIdentifier: 
+  FileName: HyperHammerhead
+  sprite: {fileID: 21300000, guid: a3247d73cb65fb646bc26e9d296720cc, type: 3}
+  cardName: Hyper Hammerhead
+  description: 'If an opponent''s monster that battled this card is not destroyed:
+    Return that opponent''s monster to the hand.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 2126169e1d3887846909648caaeff530, type: 2}
+  atk: 1500
+  def: 1200
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 6ada704636753d441861074c0a1ca3a8, type: 2}
+  hologram: {fileID: 21300000, guid: 8524c19b1de538a4ab84f45e159fb352, type: 3}
+  atkAnimation: {fileID: 0}

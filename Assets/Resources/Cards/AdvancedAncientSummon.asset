@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: AdvancedAncientSummon
+  m_EditorClassIdentifier: 
+  FileName: AdvancedAncientSummon
+  sprite: {fileID: 21300000, guid: 31a5d0f8bc4445348b9f384952b7e48b, type: 3}
+  cardName: Advanced Ancient Summon
+  description: Ancient Summon 1 Ancient Monster from your Extra Deck, by shuffling
+    banished cards into your deck as Ancient Materials.
+  type: {fileID: 11400000, guid: 7183fee88ea6976409563196a51f7fea, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 5377ad685557ba94dbf1827de1f265e1, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3c26ceb80f9484f9417f502965a9ac, type: 3}
+  m_Name: WingedDragonRa_Destroy
+  m_EditorClassIdentifier: 
+  FileName: WingedDragonRa_Destroy
+  type: 1
+  features: []
+  cost: {fileID: 11400000, guid: 64466a389ac0ef445aaead6516b25b27, type: 2}
+  conditions:
+  - {fileID: 11400000, guid: 58d982350448c5a4eba5907e64cdbb1d, type: 2}
+  cardsGetter: {fileID: 11400000, guid: ab621a55e18d07b49aefc3b5385e4e1c, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 11400000, guid: e941cdf1d83b24b408ef01b2ea35c8dc, type: 2}

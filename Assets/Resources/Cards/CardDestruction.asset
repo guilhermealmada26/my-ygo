@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: CardDestruction
+  m_EditorClassIdentifier: 
+  FileName: CardDestruction
+  sprite: {fileID: 21300000, guid: 0527021d91301e74c84cb80475987328, type: 3}
+  cardName: Card Destruction
+  description: Each player discards their entire hand, then draws the same number
+    of cards they discarded.
+  type: {fileID: 11400000, guid: 7183fee88ea6976409563196a51f7fea, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 26f6878b5e6329c4083efd5c853d36e4, type: 2}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: EHWildedge
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: cc861af6ae0653b49a92a872f637a61f, type: 3}
+  cardName: Elemental HERO Wildedge
+  description: '"Elemental HERO Wildheart" + "Elemental HERO Bladedge".
+
+
+    This
+    card can attack every monster your opponent controls (one attack on each monster).'
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes:
+  - {fileID: 11400000, guid: fbf9a3e8c087d36428567bd52e109581, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 9243b050d0762df4291e753a813da3e0, type: 2}
+  - {fileID: 11400000, guid: 2c82026ad4c3bf445b08d968263ca5e1, type: 2}
+  atk: 2600
+  def: 2300
+  customAtkDefText: 
+  lvl: 7
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: ce6a3e8195085034189923b45509f84d, type: 3}
+  atkAnimation: {fileID: 0}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 8d95bd36ffdfcbb459257ffc62b73478, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: e6a3a61e3b895d24e8a17139a105efff, type: 2}
+    min: 1
+    max: 1

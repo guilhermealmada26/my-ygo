@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537b36ce9b335e646b7d08afa722314a, type: 3}
+  m_Name: KingBarbaros_Reduce
+  m_EditorClassIdentifier: 
+  type: 3
+  features:
+  - {fileID: 11400000, guid: 62bf107ff5dd46e47be7073507f4ee65, type: 2}
+  - {fileID: 11400000, guid: c6c31da4fe4e29b4e8151f768309781f, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: ee7cc9bf24373d44796c80f770f2fbe1, type: 2}
+  - {fileID: 11400000, guid: 5dc8a102ded5c20429d72242edf18e4e, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 13735398f1cc6f34a93c116b753d10e4, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  cumulativeResolve: 0
+  modifiers:
+  - condition: {fileID: 11400000, guid: ae663c3afafac814b8341304f4db4aa2, type: 2}
+    field: 0
+    valueGetter: {fileID: 11400000, guid: ab0420cb80640cc4081df7f95f3b44ac, type: 2}

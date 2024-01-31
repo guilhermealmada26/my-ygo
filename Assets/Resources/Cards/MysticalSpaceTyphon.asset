@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: MysticalSpaceTyphon
+  m_EditorClassIdentifier: 
+  FileName: MysticalSpaceTyphon
+  sprite: {fileID: 21300000, guid: 472d3bab2fce31b4b8c99e59cc7815a7, type: 3}
+  cardName: Mystical Space Typhon
+  description: Destroy 1 Spell/Trap on the field.
+  type: {fileID: 11400000, guid: 7183fee88ea6976409563196a51f7fea, type: 2}
+  limitation: {fileID: 11400000, guid: 5f313634df87ddd4b8cb1a516fb9bfc6, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 4518391ee7584914ba64a212c9367b57, type: 2}

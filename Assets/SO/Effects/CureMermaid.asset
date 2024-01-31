@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ed12c2d3662fc49aa029bf2b319f7b, type: 3}
+  m_Name: CureMermaid
+  m_EditorClassIdentifier: 
+  type: 3
+  features:
+  - {fileID: 11400000, guid: d5c87f8b52980584fa394fa97892b99c, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}
+  - {fileID: 11400000, guid: f163825e645832c40811d9446b8beb5c, type: 2}
+  target: {fileID: 11400000, guid: 9f9ecc5ed2868d0458540dfdbd70c487, type: 2}
+  value: {fileID: 11400000, guid: 1d166366bf3dbe940a46f8d0132a808e, type: 2}
+  heal: 1
+  reason: 2

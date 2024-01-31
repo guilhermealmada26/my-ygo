@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: ObeliskTormentor
+  m_EditorClassIdentifier: 
+  FileName: ObeliskTormentor
+  sprite: {fileID: 21300000, guid: d0bf12a14e438a34ba1d9f9972d02037, type: 3}
+  cardName: Obelisk the Tormentor
+  description: "Requires 3 Tributes to Normal Summon (cannot be Normal Set).\n\nWhen
+    Normal Summoned, cards and effects cannot be activated. \n\nYou can Tribute 2
+    monsters; destroy all monsters your opponent controls.\n\nIf this card is Special
+    Summoned: Send it to the Graveyard during the End Phase."
+  type: {fileID: 11400000, guid: 488ab74ffd102e145be4c63741cda0f6, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: ee871d1657cbcca41b20858d0d7de890, type: 2}
+  - {fileID: 11400000, guid: 34d33646ac2021747a83774c3468879f, type: 2}
+  - {fileID: 11400000, guid: d50efdac621caf84b9b1e75d8c6b78c7, type: 2}
+  - {fileID: 11400000, guid: 529b03af0b5e7b24aae4cd28341044f5, type: 2}
+  - {fileID: 11400000, guid: bea43e8c6b0f7cd4ebde76c7a28fd01c, type: 2}
+  atk: 4000
+  def: 4000
+  customAtkDefText: 
+  lvl: 10
+  attribute: {fileID: 11400000, guid: 951e73055ea8dcc499e060cb7577398b, type: 2}
+  monsterType: {fileID: 11400000, guid: c98a28e708550304695f95f8f5f2593a, type: 2}
+  hologram: {fileID: 21300000, guid: 4109bc17f181f8c41912fc8cdeb27baf, type: 3}
+  atkAnimation: {fileID: 0}

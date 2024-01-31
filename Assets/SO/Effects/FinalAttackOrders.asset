@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0745f0aa1b88e4588b35a2e3169e32, type: 3}
+  m_Name: FinalAttackOrders
+  m_EditorClassIdentifier: 
+  type: 1
+  features:
+  - {fileID: 11400000, guid: 3e960eac22af6cb4888cd10dd3d88b79, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: c3f22f70bcf339a46b1c14ad246401a3, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}
+  - {fileID: 11400000, guid: a26eab319307a5340a4c4b17cd2227ec, type: 2}
+  - {fileID: 11400000, guid: d4f6081f8893e31488c7849e306d402e, type: 2}
+  cardsSelection: {fileID: 0}
+  effects:
+  - {fileID: 11400000, guid: 2d3f102d73563234fb0a4eecb574b4ea, type: 2}
+  showResolve: 1
+  events: 0900000008000000010000000700000004000000

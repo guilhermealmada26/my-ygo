@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22e94b760d85064da590cadac46d406, type: 3}
+  m_Name: ReplayDuel
+  m_EditorClassIdentifier: 
+  musicName: 
+  startingPlayerID: -1
+  duelTag: Replay
+  player:
+    name: Player 1
+    imageName: buster-blader
+    control: 3
+    initialLP: 8000
+    initialDrawCount: 5
+    mainDeck:
+    - Umi
+    - Polymerization
+    - LeviaDragon
+    - RedEyesBlackDragon
+    - RedEyesBlackDragon
+    - RedEyesBlackDragon
+    - GracefulCharity
+    - Kazejin
+    - SangaThunder
+    - UnshavenAngler
+    - Suijin
+    - GiantBulge
+    - MonsterReborn
+    - LegendaryOcean
+    - LordOfD
+    - MonsterReborn
+    - JudgeMan
+    - BubonicVermin
+    - DragonTreasure
+    - 'Flint '
+    - Berfomet
+    - DarkHole
+    - HorusDragonLVL6
+    - Polymerization
+    - GazelleKingBeasts
+    - TheCreator
+    - SpiralSpearStrike
+    - SwordsRevealingLight
+    - BubonicVermin
+    - ParallelWarriorFusion
+    - Metamorphosis
+    - 'Flint '
+    - WickedDragonErsatzHead
+    - AdvancedAncientSummon
+    - Yami
+    - Relinquished
+    extraDeck:
+    - OceanDragonLord
+    - GateGuardian
+    - SkyGallopingGaia
+    - CyberEndDragon
+    - GaiaDragonChampion
+    - FiveHeadedDragon
+    - InvokedMechaba
+    - InvokedPurgatrio
+    - RedEyesUltimateDragon
+    - ThousandEyesRestrict
+    - EHFlameWingman
+    - InvokedRaidjin
+    - 'ChimeraFlyingMythicalBeast '
+    - ChimeratechOverdragon
+    - ColossalFighter
+    - SuperAncientDinobeast
+    - ArcanaQueen'sKnight
+  opponent:
+    name: Opponent
+    imageName: abaki
+    control: 3
+    initialLP: 8000
+    initialDrawCount: 5
+    mainDeck:
+    - Umi
+    - Polymerization
+    - LeviaDragon
+    - RedEyesBlackDragon
+    - RedEyesBlackDragon
+    - RedEyesBlackDragon
+    - GracefulCharity
+    - Kazejin
+    - SangaThunder
+    - UnshavenAngler
+    - Suijin
+    - GiantBulge
+    - MonsterReborn
+    - LegendaryOcean
+    - LordOfD
+    - MonsterReborn
+    - JudgeMan
+    - BubonicVermin
+    - DragonTreasure
+    - 'Flint '
+    - Berfomet
+    - DarkHole
+    - HorusDragonLVL6
+    - Polymerization
+    - GazelleKingBeasts
+    - TheCreator
+    - SpiralSpearStrike
+    - SwordsRevealingLight
+    - BubonicVermin
+    - ParallelWarriorFusion
+    - Metamorphosis
+    - 'Flint '
+    - WickedDragonErsatzHead
+    - AdvancedAncientSummon
+    - Yami
+    - Relinquished
+    extraDeck:
+    - OceanDragonLord
+    - GateGuardian
+    - SkyGallopingGaia
+    - CyberEndDragon
+    - GaiaDragonChampion
+    - FiveHeadedDragon
+    - InvokedMechaba
+    - InvokedPurgatrio
+    - RedEyesUltimateDragon
+    - ThousandEyesRestrict
+    - EHFlameWingman
+    - InvokedRaidjin
+    - 'ChimeraFlyingMythicalBeast '
+    - ChimeratechOverdragon
+    - ColossalFighter
+    - SuperAncientDinobeast
+    - ArcanaQueen'sKnight
+  extenders:
+  - {fileID: 11400000, guid: 4dfcacfe8af70d245b5337064a921dc4, type: 2}
+  - {fileID: 11400000, guid: 0dbb75c70f5535c48aeea7cfed30d94c, type: 2}

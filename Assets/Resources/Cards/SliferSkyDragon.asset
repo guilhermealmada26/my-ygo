@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: SliferSkyDragon
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 853344ada561ad249b1c1a896f778324, type: 3}
+  cardName: Slifer the Sky Dragon
+  description: "Requires 3 Tributes to Normal Summon (cannot be Normal Set).\n\nWhen
+    Normal Summoned, cards and effects cannot be activated. \n\nGains 1000 ATK and
+    DEF for each card in your hand.\n\nIf a monster(s) is Normal or Special Summoned
+    to your opponent's field: That monster(s) loses 2000 ATK while it is on the field.
+    Then if its ATK has been reduced to 0, destroy it.\n\nIf this card is Special
+    Summoned: Send it to the Graveyard during the End Phase."
+  type: {fileID: 11400000, guid: 0c143cf5106a8bb419a5d72f9e002b8e, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: ee871d1657cbcca41b20858d0d7de890, type: 2}
+  - {fileID: 11400000, guid: 34d33646ac2021747a83774c3468879f, type: 2}
+  - {fileID: 11400000, guid: 7df3257d9385f1c48a76c20755afa093, type: 2}
+  - {fileID: 11400000, guid: 529b03af0b5e7b24aae4cd28341044f5, type: 2}
+  - {fileID: 11400000, guid: 9edb7cc3dfdee104a84956ddb620cfd3, type: 2}
+  - {fileID: 11400000, guid: bea43e8c6b0f7cd4ebde76c7a28fd01c, type: 2}
+  atk: 0
+  def: 0
+  customAtkDefText: X000/X000
+  lvl: 10
+  attribute: {fileID: 11400000, guid: 951e73055ea8dcc499e060cb7577398b, type: 2}
+  monsterType: {fileID: 11400000, guid: c98a28e708550304695f95f8f5f2593a, type: 2}
+  hologram: {fileID: 21300000, guid: 33c11122d48631448994d62c00e23812, type: 3}
+  atkAnimation: {fileID: 0}

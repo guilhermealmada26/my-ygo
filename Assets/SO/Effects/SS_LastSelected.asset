@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abe8da26c7617c479c84577e25eeb4f, type: 3}
+  m_Name: SS_LastSelected
+  m_EditorClassIdentifier: 
+  type: 0
+  features:
+  - {fileID: 11400000, guid: a20c47ff4c1a3a94986ce70603892141, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 6198a4c398525364ca2106f3d59d9226, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  position: 
+  selectPosition: 1

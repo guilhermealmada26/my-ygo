@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537b36ce9b335e646b7d08afa722314a, type: 3}
+  m_Name: LegendaryOcean_Modify
+  m_EditorClassIdentifier: 
+  type: 1
+  features:
+  - {fileID: 11400000, guid: 25deb9eb6d52bb643bb931c8bea6d065, type: 2}
+  - {fileID: 11400000, guid: 4b3b3428776111f46bcd5da29708343e, type: 2}
+  - {fileID: 11400000, guid: a20c47ff4c1a3a94986ce70603892141, type: 2}
+  - {fileID: 11400000, guid: 3e960eac22af6cb4888cd10dd3d88b79, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 120a6c4d82a91a04eafefa5bef92c2b1, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 2f67af6c0f2959243a507e23f3a96c72, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  cumulativeResolve: 0
+  modifiers:
+  - condition: {fileID: 11400000, guid: bf5dbf6f79510f94691660d4a9698307, type: 2}
+    field: 0
+    valueGetter: {fileID: 11400000, guid: ff4f56ad213c2b04e9bdafd1155c8521, type: 2}
+  - condition: {fileID: 11400000, guid: bf5dbf6f79510f94691660d4a9698307, type: 2}
+    field: 1
+    valueGetter: {fileID: 11400000, guid: ff4f56ad213c2b04e9bdafd1155c8521, type: 2}
+  - condition: {fileID: 11400000, guid: 1dab74075bb2e2a4a88a223d3047fccb, type: 2}
+    field: 2
+    valueGetter: {fileID: 11400000, guid: d62e7cd8f413f0a41b45f802e3dd2e4e, type: 2}

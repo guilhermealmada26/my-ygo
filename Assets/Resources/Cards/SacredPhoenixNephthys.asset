@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: SacredPhoenixNephthys
+  m_EditorClassIdentifier: 
+  FileName: SacredPhoenixNephthys
+  sprite: {fileID: 21300000, guid: 5e24f76c80b75d541bef2d2cd8b6d768, type: 3}
+  cardName: Sacred Phoenix of Nephthys
+  description: 'During the End Phase, if this card was destroyed by a card effect
+    and sent to the GY: Special Summon this card from the GY and if you do, you can
+    destroy all Spells and Traps on the field.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: a6ac50485212a824bb71e852f5e7ba8d, type: 2}
+  - {fileID: 11400000, guid: f9ceaa61c3c70f745867b1eb98eb2769, type: 2}
+  atk: 2400
+  def: 1600
+  customAtkDefText: 
+  lvl: 8
+  attribute: {fileID: 11400000, guid: 0004139c25e148e4395312325ce085b3, type: 2}
+  monsterType: {fileID: 11400000, guid: cc5f7ef963715344da479e9b4403fe1f, type: 2}
+  hologram: {fileID: 21300000, guid: 040ac64c04ff91341a17e4b565189811, type: 3}
+  atkAnimation: {fileID: 0}

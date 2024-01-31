@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: BlockAttack
+  m_EditorClassIdentifier: 
+  FileName: BlockAttack
+  sprite: {fileID: 21300000, guid: d47214b1dca9a254b81d68b06b023eb8, type: 3}
+  cardName: Block Attack
+  description: Select 1 Attack Position monster on your opponent's side of the field
+    and change it to face-up Defense Position.
+  type: {fileID: 11400000, guid: 7183fee88ea6976409563196a51f7fea, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 95f75a5b79af0f34bad99427e2d561c3, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: WallOfIllusion
+  m_EditorClassIdentifier: 
+  FileName: WallOfIllusion
+  sprite: {fileID: 21300000, guid: 510cce3b77bed954cabbaf292df4daba, type: 3}
+  cardName: Wall of Illusion
+  description: 'If this card is attacked by a monster: Return that monster to the
+    hand.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 54a2b3cf65db3bb43a3066927722a5a7, type: 2}
+  atk: 1000
+  def: 1850
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 27f801a28086072458bdd511caa0176c, type: 2}
+  hologram: {fileID: 21300000, guid: a588758529addcc42bd02f8bd904ea8f, type: 3}
+  atkAnimation: {fileID: 0}

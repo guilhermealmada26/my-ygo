@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0abfc48af259a5c47a202ae72be59944, type: 3}
+  m_Name: EquippedFlintCount
+  m_EditorClassIdentifier: 
+  FileName: EquippedFlintCount
+  cardsGetter: {fileID: 11400000, guid: ff3fdfd963045114ca9e35c76905a9ae, type: 2}
+  filters:
+  - {fileID: 11400000, guid: 6facac4d81aecb647b3e9bc496730cf2, type: 2}
+  multiplier: {fileID: 11400000, guid: 0607c4f0ef21f2e478804fea8e3a74c2, type: 2}

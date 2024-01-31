@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537b36ce9b335e646b7d08afa722314a, type: 3}
+  m_Name: ReliquinshedAtkDef
+  m_EditorClassIdentifier: 
+  type: 0
+  features:
+  - {fileID: 11400000, guid: 8d66bc9e74223ed4fb05c4f4c19bb569, type: 2}
+  - {fileID: 11400000, guid: 94171a7cdd7da384aba83c269cd5135b, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 13735398f1cc6f34a93c116b753d10e4, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  cumulativeResolve: 0
+  modifiers:
+  - condition: {fileID: 11400000, guid: ae663c3afafac814b8341304f4db4aa2, type: 2}
+    field: 0
+    valueGetter: {fileID: 11400000, guid: 67fd4d22d615c094db473b053f6542bc, type: 2}
+  - condition: {fileID: 11400000, guid: ae663c3afafac814b8341304f4db4aa2, type: 2}
+    field: 1
+    valueGetter: {fileID: 11400000, guid: 32f96ddec9853024d88562698cd57c32, type: 2}

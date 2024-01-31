@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: SkyGallopingGaia
+  m_EditorClassIdentifier: 
+  FileName: SkyGallopingGaia
+  sprite: {fileID: 21300000, guid: 4a0cb5d44e921284abd36757ae6c5e6a, type: 3}
+  cardName: Sky Galloping Gaia the Dragon Champion
+  description: "1 \"Gaia The Fierce Knight\" monster + 1 Dragon-Type monster\r.\n\nThis
+    card's name becomes \"Gaia the Dragon Champion\" while it is on the field. \n\nIf
+    this card is Special Summoned: You can add 1 \"Spiral Spear Strike\" from your
+    Deck or Graveyard to your hand. \n\nWhen this card declares an attack on an face-up
+    opponent's monster: You can change the battle position of that opponent's monster."
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes:
+  - {fileID: 11400000, guid: f39059bea7a068649b67f92e16d12d56, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 9f29789255ae58143a25efe793c838fb, type: 2}
+  - {fileID: 11400000, guid: 8906ba029e267a04b914a62e27b6574d, type: 2}
+  - {fileID: 11400000, guid: ee9c783529bf450468e4e68117521b80, type: 2}
+  atk: 2600
+  def: 2100
+  customAtkDefText: 
+  lvl: 7
+  attribute: {fileID: 11400000, guid: 21ea2d0d7cd151e4c9715d04d94397b1, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: 4725ea3ad6e87fa419c4f2f8c903f14b, type: 3}
+  atkAnimation: {fileID: 11400000, guid: e9c6d9c7cba32404289caef222f42722, type: 2}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 0475bb00aaa3cec41907935c24cb98ef, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: 0f047a04a6a7cfc48bbe028dbeab2cdc, type: 2}
+    min: 1
+    max: 1

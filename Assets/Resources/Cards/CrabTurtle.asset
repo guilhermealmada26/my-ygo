@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: CrabTurtle
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: d0ab6096845f3c041a809abccc7f17a1, type: 3}
+  cardName: Crab Turtle
+  type: {fileID: 11400000, guid: 375f60c81b5dfb448adae12b411f9ada, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: This monster can only be Ritual Summoned with the Ritual Spell Card,
+    "Turtle Oath".
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 1d31cb93ac4196d41817bc76c9edeb28, type: 2}
+  monsterType: {fileID: 11400000, guid: 54ff766147ebab34ea2d6a058a2203be, type: 2}
+  atk: 2550
+  def: 2500
+  lvl: 8
+  hologram: {fileID: 21300000, guid: 1afc02de24bc8444baef0e4552374262, type: 3}
+  atkAnimation: {fileID: 0}

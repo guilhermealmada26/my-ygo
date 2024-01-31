@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3c26ceb80f9484f9417f502965a9ac, type: 3}
+  m_Name: Fissure
+  m_EditorClassIdentifier: 
+  FileName: Fissure
+  type: 1
+  features: []
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 50f7ddd28ae76b246891c4e600c1b6d8, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}
+  cardsSelection: {fileID: 11400000, guid: e941cdf1d83b24b408ef01b2ea35c8dc, type: 2}

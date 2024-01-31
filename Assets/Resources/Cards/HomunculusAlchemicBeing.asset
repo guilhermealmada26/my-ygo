@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: HomunculusAlchemicBeing
+  m_EditorClassIdentifier: 
+  FileName: HomunculusAlchemicBeing
+  sprite: {fileID: 21300000, guid: 9b904a30b0b35384296043a5aec183e9, type: 3}
+  cardName: Homunculus the Alchemic Being
+  description: 'Once per turn: You can change the Attribute of this card.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 74df1eef59bf86041bb22777b8a76c06, type: 2}
+  atk: 1800
+  def: 1600
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 4eaf03bcc45af67469fb5431cda021f8, type: 2}
+  monsterType: {fileID: 11400000, guid: b88aa8716abf3344bbdf1a4a8fdb133d, type: 2}
+  hologram: {fileID: 21300000, guid: 55af4e430b6574a4b9b73676ed6e5040, type: 3}
+  atkAnimation: {fileID: 0}

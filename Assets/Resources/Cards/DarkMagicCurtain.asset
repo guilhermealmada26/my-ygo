@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: DarkMagicCurtain
+  m_EditorClassIdentifier: 
+  FileName: DarkMagicCurtain
+  sprite: {fileID: 21300000, guid: 17eac4d1a856b154685806c4912f1f58, type: 3}
+  cardName: Dark Magic Curtain
+  description: Pay half your LP; Special Summon 1 "Dark Magician" from your Deck.
+    You cannot Special Summon other monsters for rest of this turn.
+  type: {fileID: 11400000, guid: 7183fee88ea6976409563196a51f7fea, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 876f3b99e958c714eae86f1a67aa2674, type: 2}

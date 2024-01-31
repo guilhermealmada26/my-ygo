@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: AleisterInvoker
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: cf96c54fb203bb845899580127e8c716, type: 3}
+  cardName: Aleister the Invoker
+  description: 'If this card is Normal Summoned or flipped face-up: You can add 1
+    "Invocation" from your Deck to your hand (Once per turn, by card name).
+
+
+    You
+    can send this card from your hand to the GY; select 1 Fusion Monster you control,
+    it gains 1000 ATK/DEF until the end of this turn.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 5f313634df87ddd4b8cb1a516fb9bfc6, type: 2}
+  archetypes:
+  - {fileID: 11400000, guid: 2aff30820b2a68b4a80ba3cbb5fea030, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 701b6c83dc0eb3d4d905f4a1da6684d1, type: 2}
+  - {fileID: 11400000, guid: a89218253c0d8694baff52e426e2a1bc, type: 2}
+  atk: 1000
+  def: 1800
+  customAtkDefText: 
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 5d4db893391381c4396dc79f14411251, type: 2}
+  hologram: {fileID: 21300000, guid: 978f29f1cf65f1a4f8d0a0445ea597c0, type: 3}
+  atkAnimation: {fileID: 0}

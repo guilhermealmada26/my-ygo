@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abe8da26c7617c479c84577e25eeb4f, type: 3}
+  m_Name: PlagueZombie_SelfSummon
+  m_EditorClassIdentifier: 
+  FileName: PlagueZombie_SelfSummon
+  type: 5
+  features: []
+  cost: {fileID: 11400000, guid: 5822891d54517f14c99e49c22f92236b, type: 2}
+  conditions:
+  - {fileID: 11400000, guid: 92ab27bafba2a064ba8f303cd6db68a2, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 13735398f1cc6f34a93c116b753d10e4, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  position: 
+  selectPosition: 1

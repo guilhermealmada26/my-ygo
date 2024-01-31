@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: UnitedWeStand
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 130c0c06ffa6bb440be31a20e4d3696d, type: 3}
+  cardName: United We Stand
+  description: The equipped monster gains 800 ATK/DEF for each face-up monster you
+    control.
+  type: {fileID: 11400000, guid: 8cbbdaadefab1d0499b4f05566f9b0dd, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 6dd54e255422f944f91e42fa4d09f33f, type: 2}
+  - {fileID: 11400000, guid: 1e40ea70165628443bf89e97a7a69805, type: 2}

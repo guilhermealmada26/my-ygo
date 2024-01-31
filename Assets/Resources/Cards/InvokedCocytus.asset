@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: InvokedCocytus
+  m_EditorClassIdentifier: 
+  FileName: InvokedCocytus
+  sprite: {fileID: 21300000, guid: 9df03f6c27714b846830fddead412e55, type: 3}
+  cardName: Invoked Cocytus
+  description: "\"Aleister the Invoker\" + 1 WATER monster\r.\n\nCannot be destroyed
+    by your opponent's card effects. \n\nThis card can attack while in face-up Defense
+    Position. If it does, apply its ATK for damage calculation."
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes:
+  - {fileID: 11400000, guid: 2aff30820b2a68b4a80ba3cbb5fea030, type: 2}
+  effects:
+  - {fileID: 11400000, guid: e3066ade88d37324fbd8ea7b54f2202c, type: 2}
+  - {fileID: 11400000, guid: 9afa8fb5c2e0d824eb9aabe7286e18b6, type: 2}
+  atk: 1800
+  def: 2900
+  lvl: 6
+  attribute: {fileID: 11400000, guid: 1d31cb93ac4196d41817bc76c9edeb28, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: b7d00b7d8261b5e439d7c99bbcb99c0e, type: 3}
+  atkAnimation: {fileID: 0}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 58b1a741b3248664391acfedce269af5, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: fdac49d8831e0714b98bc1d05aec6c80, type: 2}
+    min: 1
+    max: 1

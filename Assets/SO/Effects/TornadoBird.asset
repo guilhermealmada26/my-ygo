@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fecfa40936d8549b883f4a5d37f757, type: 3}
+  m_Name: TornadoBird
+  m_EditorClassIdentifier: 
+  type: 3
+  features:
+  - {fileID: 11400000, guid: 8b038ce141e3baf4491c49ce2785d621, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 71c30b5883efeea409b49e0bd01345f8, type: 2}
+  cardsGetter: {fileID: 11400000, guid: a3bbe9b758238fc42ad4192019c5a1ea, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 11400000, guid: ca86226dfb97f6d4187d6a0103b6a045, type: 2}
+  isDeck: 0
+  shuffle: 0

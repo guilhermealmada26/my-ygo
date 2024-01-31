@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: AmphibiousBugroth
+  m_EditorClassIdentifier: 
+  FileName: AmphibiousBugroth
+  sprite: {fileID: 21300000, guid: 125b7aaaab24c0d44b475566127e4baa, type: 3}
+  cardName: Amphibious Bugroth MK-3
+  description: While "Umi" is face-up on the field, this card can attack your opponent's
+    Life Points directly.
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 4bfe7aa6c3921464c8d61c8a5cea34ff, type: 2}
+  atk: 1500
+  def: 1300
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 1d31cb93ac4196d41817bc76c9edeb28, type: 2}
+  monsterType: {fileID: 11400000, guid: 7b24191f361496249b62b9cc767f2a5a, type: 2}
+  hologram: {fileID: 21300000, guid: fae4944a8867d0b41bb045fc562d0f6d, type: 3}
+  atkAnimation: {fileID: 11400000, guid: e805af9815fb0d14e97053799b2d6c8d, type: 2}

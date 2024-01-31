@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a601743ea5f09a3489c3752942b45022, type: 3}
+  m_Name: PlayerMonstersNotDestroyedByBattle
+  m_EditorClassIdentifier: 
+  type: 0
+  features: []
+  cost: {fileID: 0}
+  conditions: []
+  applyOnSetup: 0
+  isFaceUpEffect: 0
+  target: {fileID: 11400000, guid: 16dc36d3dc7b3c94ab244494cc4bcf93, type: 2}
+  targetThisCard: 0
+  targetFilters:
+  - {fileID: 11400000, guid: 98cb5c34e53ee9249b1ecf8bb644572a, type: 2}
+  - {fileID: 11400000, guid: c43b8b7de145d16458fb77d2b2465ba8, type: 2}
+  callerFilters: []
+  reasons: 01000000

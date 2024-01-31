@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abe8da26c7617c479c84577e25eeb4f, type: 3}
+  m_Name: MaraudingCaptain_Summon
+  m_EditorClassIdentifier: 
+  type: 4
+  features:
+  - {fileID: 11400000, guid: 3455ed9c6b707b1449e2074448c336c9, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 5dc8a102ded5c20429d72242edf18e4e, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 07287f2829a5b8a40b1ec7bfa608cc0f, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: e21757ad04707bd44b49c3e0e8abcb19, type: 2}
+  - {fileID: 11400000, guid: 5d82508441b0ed746ae9be5191e1d7c5, type: 2}
+  cardsSelection: {fileID: 11400000, guid: e941cdf1d83b24b408ef01b2ea35c8dc, type: 2}
+  position: 
+  selectPosition: 1

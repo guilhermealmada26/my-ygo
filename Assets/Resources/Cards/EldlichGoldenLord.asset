@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: EldlichGoldenLord
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 34915f5341a690846abe4b2226253607, type: 3}
+  cardName: Eldlich the Golden Lord
+  description: "You can send this card and 1 Spell/Trap from your hand to the GY;
+    send 1 card on the field to the GY.\n\nIf this card is in your GY: You can send
+    1 Spell/Trap you control to the GY; add this card to your hand, then you can
+    Special Summon 1 Zombie monster from your hand, and if you do, until the end
+    of your opponent's turn, it gains 1000 ATK/DEF and cannot be destroyed by card
+    effects. \n\nYou can only use each effect of \"Eldlich the Golden Lord\" once
+    per turn."
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 29a66c9db9679d3408f7820cdf63ea9d, type: 2}
+  - {fileID: 11400000, guid: 54b5afc878f76d34fac6fbae096bc499, type: 2}
+  atk: 2500
+  def: 2800
+  customAtkDefText: 
+  lvl: 10
+  attribute: {fileID: 11400000, guid: 4eaf03bcc45af67469fb5431cda021f8, type: 2}
+  monsterType: {fileID: 11400000, guid: 186cc92a3832c654eab83142f94e916a, type: 2}
+  hologram: {fileID: 21300000, guid: 4eec65f85c962d3418380bec1ae9b7b5, type: 3}
+  atkAnimation: {fileID: 0}

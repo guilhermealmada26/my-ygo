@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: SwordsRevealingLight
+  m_EditorClassIdentifier: 
+  FileName: SwordsRevealingLight
+  sprite: {fileID: 21300000, guid: 9b1d92b90d67ea54cb1ff17f82d13c12, type: 3}
+  cardName: Swords of Revealing Light
+  description: 'When this card is activated: flip all face-down monsters your opponent
+    controls.
+
+
+    While this card is face-up on the field, your opponent''s monsters
+    cannot declare an attack.
+
+
+    This card is sent to the graveyard 6 turns after
+    activation.'
+  type: {fileID: 11400000, guid: 52b86f7c966cf9d4aa40b1b780ebbfe6, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: e0ebb76099807ab4d8e33691c2e7ca2b, type: 2}

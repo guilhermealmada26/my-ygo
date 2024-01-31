@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537b36ce9b335e646b7d08afa722314a, type: 3}
+  m_Name: ArmoredBee
+  m_EditorClassIdentifier: 
+  type: 1
+  features:
+  - {fileID: 11400000, guid: 9b205fece05d6d34f8ff1b1d146e6192, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 58d982350448c5a4eba5907e64cdbb1d, type: 2}
+  - {fileID: 11400000, guid: 836a4695ad18eae4b95e84476b163c97, type: 2}
+  cardsGetter: {fileID: 11400000, guid: ab621a55e18d07b49aefc3b5385e4e1c, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}
+  cardsSelection: {fileID: 11400000, guid: e941cdf1d83b24b408ef01b2ea35c8dc, type: 2}
+  modifiers:
+  - condition: {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}
+    field: 0
+    valueGetter: {fileID: 11400000, guid: 709bc3506c83e7b49a487d0c7287744e, type: 2}

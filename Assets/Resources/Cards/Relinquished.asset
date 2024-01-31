@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Relinquished
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 4a59941c4fe17f2478fc70b276084c04, type: 3}
+  cardName: Relinquished
+  description: "You can Ritual Summon this card with \"Black Illusion Ritual\". \n\nOnce
+    per turn: You can equip 1 monster your opponent controls to this card. (You can
+    only equip 1 monster at a time to this card with this effect.) This card's ATK
+    and DEF become equal to that equipped monster's. \n\nWhile equipped with that
+    monster, any battle damage you take from battles involving this card inflicts
+    equal effect damage to your opponent.\n\nIf this card would be destroyed by battle,
+    destroy that equipped monster instead. "
+  type: {fileID: 11400000, guid: 375f60c81b5dfb448adae12b411f9ada, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 7b4fbad279a1dd242bf2b7cbf4608d86, type: 2}
+  - {fileID: 11400000, guid: 6006c56923d3f324cbbab35366342106, type: 2}
+  - {fileID: 11400000, guid: 8307287f363a4f44a90abeaa20cf1c45, type: 2}
+  - {fileID: 11400000, guid: c36bf8321ddbbe4499437b7acd696692, type: 2}
+  atk: 0
+  def: 0
+  customAtkDefText: 
+  lvl: 1
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: b88aa8716abf3344bbdf1a4a8fdb133d, type: 2}
+  hologram: {fileID: 21300000, guid: a5a1f33cc55c7164b8cfd388a49ce7da, type: 3}
+  atkAnimation: {fileID: 0}

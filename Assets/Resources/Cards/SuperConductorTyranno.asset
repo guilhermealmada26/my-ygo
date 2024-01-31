@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: SuperConductorTyranno
+  m_EditorClassIdentifier: 
+  FileName: SuperConductorTyranno
+  sprite: {fileID: 21300000, guid: 649e05b2e7e3cb74ba7d71266f8987f1, type: 3}
+  cardName: Super Conductor Tyranno
+  description: 'Once per turn: You can Tribute 1 monster; inflict 1000 damage to
+    your opponent. This card cannot declare an attack the turn this effect is activated.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 98afa962d3af3a542be23f5c6273e7e3, type: 2}
+  atk: 3300
+  def: 1400
+  lvl: 8
+  attribute: {fileID: 11400000, guid: e64fa39518f77914b9b308094f9a3c51, type: 2}
+  monsterType: {fileID: 11400000, guid: 6ada704636753d441861074c0a1ca3a8, type: 2}
+  hologram: {fileID: 21300000, guid: 55cd89475f126a643a7c77984abcaa91, type: 3}
+  atkAnimation: {fileID: 0}

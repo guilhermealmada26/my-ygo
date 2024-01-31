@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a418eef404709bd4b9724e428246f89d, type: 3}
+  m_Name: BanishFIRE 1-AllStCount
+  m_EditorClassIdentifier: 
+  FileName: BanishFIRE 1-AllStCount
+  type: 2
+  features: []
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: e1b04c80a0f4af04ab6dd77292435e25, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: c9874b897420d8848b861743e24288fd, type: 2}
+  cardsSelection: {fileID: 11400000, guid: 53609b2c7a8503245a3c0587938ffa70, type: 2}

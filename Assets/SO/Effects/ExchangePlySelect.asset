@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4970083dae5244695cd08548b27e3a, type: 3}
+  m_Name: ExchangePlySelect
+  m_EditorClassIdentifier: 
+  FileName: ExchangePlySelect
+  type: 0
+  features: []
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 32d12893cd3461447b11d64436ef90f1, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 11400000, guid: 2363b0c262da2db4db809dceb6018bd5, type: 2}
+  location: 2

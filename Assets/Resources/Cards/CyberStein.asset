@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: CyberStein
+  m_EditorClassIdentifier: 
+  FileName: CyberStein
+  sprite: {fileID: 21300000, guid: 571be50dd3114084d81257704de9b27f, type: 3}
+  cardName: Cyber Stein
+  description: You can pay 5000 LP; Special Summon 1 Fusion Monster from your Extra
+    Deck in Attack Position.
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 0827fbe271e046a4bb49f7ed33642ac1, type: 2}
+  atk: 700
+  def: 500
+  lvl: 2
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 7b24191f361496249b62b9cc767f2a5a, type: 2}
+  hologram: {fileID: 21300000, guid: 2cf3cdcfa40f4eb4c9cc6b1c22661880, type: 3}
+  atkAnimation: {fileID: 0}

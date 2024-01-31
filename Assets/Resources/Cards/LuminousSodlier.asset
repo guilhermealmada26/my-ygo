@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: LuminousSodlier
+  m_EditorClassIdentifier: 
+  FileName: LuminousSodlier
+  sprite: {fileID: 21300000, guid: 0793d5d4fcd348e46a1227d171b0f2f6, type: 3}
+  cardName: Luminous Sodlier
+  description: Once per turn, you can pay 500 LP; destroy 1 equipped monster your
+    opponent controls.
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: c2bf23c46be7fba4c8bc6127bc15189f, type: 2}
+  atk: 2100
+  def: 1600
+  lvl: 5
+  attribute: {fileID: 11400000, guid: 4eaf03bcc45af67469fb5431cda021f8, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: 3237e7b8f696d67458006064ec4b7d84, type: 3}
+  atkAnimation: {fileID: 0}

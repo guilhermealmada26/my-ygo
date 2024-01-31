@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abe8da26c7617c479c84577e25eeb4f, type: 3}
+  m_Name: MaskedDragon
+  m_EditorClassIdentifier: 
+  FileName: MaskedDragon
+  type: 4
+  features:
+  - {fileID: 11400000, guid: 7e2d1135523b0ef41a5e523d3597fb35, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 34fd25b0ab6d2654ca88b0a875d9cc8d, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 3675c6226824b0247b8a216ab6deb016, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 0f047a04a6a7cfc48bbe028dbeab2cdc, type: 2}
+  - {fileID: 11400000, guid: 9e3402d0f9e6e7b449b5e8ed63245deb, type: 2}
+  cardsSelection: {fileID: 11400000, guid: e941cdf1d83b24b408ef01b2ea35c8dc, type: 2}
+  position: 
+  selectPosition: 1

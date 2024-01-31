@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fca8cf9acb6f83418b1ffb5f0be3df4, type: 3}
+  m_Name: SwordsRevLight_BlockAttack
+  m_EditorClassIdentifier: 
+  type: 1
+  features:
+  - {fileID: 11400000, guid: 295b3bdb05bd3664ea438832eb3e3d74, type: 2}
+  - {fileID: 11400000, guid: b31a5c1f2d7299941b49240e1374db3a, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  applyOnSetup: 0
+  isFaceUpEffect: 1
+  target: {fileID: 11400000, guid: 72af853a7546d074d8f27862bd8c5d26, type: 2}
+  targetThisCard: 0
+  targetFilters:
+  - {fileID: 11400000, guid: cdc920a62cf3e5b4280e16a00123b9c7, type: 2}
+  callerFilters: []

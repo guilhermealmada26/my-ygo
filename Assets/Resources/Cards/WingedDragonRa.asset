@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: WingedDragonRa
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 5ac877fdee8044245a28cf42eb0fd2db, type: 3}
+  cardName: The Winged Dragon of Ra
+  description: "Requires 3 Tributes to Normal Summon (cannot be Normal Set).\n\nWhen
+    Normal Summoned, cards and effects cannot be activated. \n\nIf this card is Normal
+    Summoned, it gains ATK/DEF equal to the sum of the tributed monsters ATK and
+    DEF respectively.\n\nYou can pay 1000 LP; destroy 1 monster your opponent controls.\n\nIf
+    this card is Special Summoned: You can pay LP so that you only have 1 left; this
+    card gains ATK and DEF equal to the amount of LP paid."
+  type: {fileID: 11400000, guid: 99869fb575a32bb4db7e589b40bae977, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: ee871d1657cbcca41b20858d0d7de890, type: 2}
+  - {fileID: 11400000, guid: 34d33646ac2021747a83774c3468879f, type: 2}
+  - {fileID: 11400000, guid: 1d8eed6042dafb9449051400f20abba6, type: 2}
+  - {fileID: 11400000, guid: 892310b269fd8ba4288f7a7bb9ddfca4, type: 2}
+  - {fileID: 11400000, guid: 71f20b3cf570a2d4fab02fbd085b9512, type: 2}
+  - {fileID: 11400000, guid: 529b03af0b5e7b24aae4cd28341044f5, type: 2}
+  atk: 0
+  def: 0
+  customAtkDefText: ?/?
+  lvl: 10
+  attribute: {fileID: 11400000, guid: 951e73055ea8dcc499e060cb7577398b, type: 2}
+  monsterType: {fileID: 11400000, guid: c98a28e708550304695f95f8f5f2593a, type: 2}
+  hologram: {fileID: 21300000, guid: 434e20c7b09c13f439c7d1a9ca4ce37b, type: 3}
+  atkAnimation: {fileID: 0}

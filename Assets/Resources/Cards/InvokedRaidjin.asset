@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: InvokedRaidjin
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 1f6391d556f7d7248b1be5c49178c885, type: 3}
+  cardName: Invoked Raidjin
+  description: "\"Aleister the Invoker\" + 1 WIND monster\r.\n\nOnce per turn, during
+    either player's turn: You can target 1 face-up monster on the field; change it
+    to face-down Defense Position."
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes:
+  - {fileID: 11400000, guid: 2aff30820b2a68b4a80ba3cbb5fea030, type: 2}
+  effects:
+  - {fileID: 11400000, guid: b23fa7be4a4af9548adcc66e4a028f8e, type: 2}
+  atk: 2200
+  def: 2400
+  customAtkDefText: 
+  lvl: 5
+  attribute: {fileID: 11400000, guid: 21ea2d0d7cd151e4c9715d04d94397b1, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: ce5be62aa6d155149ae612157c7a749f, type: 3}
+  atkAnimation: {fileID: 0}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 58b1a741b3248664391acfedce269af5, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: 5f9c5c78f7e1ac24dabe2c599054a0ec, type: 2}
+    min: 1
+    max: 1

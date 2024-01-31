@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff3c42eba598814caa7f9a6af753fe8, type: 3}
+  m_Name: PrematureBurial
+  m_EditorClassIdentifier: 
+  type: 1
+  features: []
+  cost: {fileID: 11400000, guid: 891c15b93fef0514aa2038f7f056e81e, type: 2}
+  conditions:
+  - {fileID: 11400000, guid: 0254831505f6d204c89b6e526e814fe2, type: 2}
+  delayResolve: 1
+  effects:
+  - {fileID: 11400000, guid: be47d6b0bb76c0940b70cccc91de5db2, type: 2}
+  - {fileID: 11400000, guid: 3c368b8b3e61dcf4a86889bcd4455a82, type: 2}

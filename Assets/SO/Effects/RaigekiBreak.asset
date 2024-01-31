@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3c26ceb80f9484f9417f502965a9ac, type: 3}
+  m_Name: RaigekiBreak
+  m_EditorClassIdentifier: 
+  FileName: RaigekiBreak
+  type: 1
+  features: []
+  cost: {fileID: 11400000, guid: 15179efbdce84b44f87e052998740946, type: 2}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 92172f77774a28a4fa8fb845986214aa, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 4a064f00a8c34f24892700d8beb5c71d, type: 2}
+  cardsSelection: {fileID: 11400000, guid: e941cdf1d83b24b408ef01b2ea35c8dc, type: 2}

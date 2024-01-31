@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7452dff0d4548aa42b8596cc964f3a42, type: 3}
+  m_Name: MegamorphInGetter
+  m_EditorClassIdentifier: 
+  FileName: MegamorphInGetter
+  defaultValue: {fileID: 11400000, guid: c78ba8800f89ad447899fafb326620b0, type: 2}
+  conditional:
+  - condition: {fileID: 11400000, guid: 17bb00d3d5c2d534592c514dd00abcc5, type: 2}
+    intGetter: {fileID: 11400000, guid: 93d4eb2927aae5e44b59689bc28e844f, type: 2}
+  - condition: {fileID: 11400000, guid: ba37ee8266125f14da4ab139a81bfb6c, type: 2}
+    intGetter: {fileID: 11400000, guid: 4083652ecdd25a24bafa9ed6ddc0942a, type: 2}

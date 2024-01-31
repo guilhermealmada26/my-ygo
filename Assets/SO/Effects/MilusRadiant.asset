@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537b36ce9b335e646b7d08afa722314a, type: 3}
+  m_Name: MilusRadiant
+  m_EditorClassIdentifier: 
+  type: 0
+  features:
+  - {fileID: 11400000, guid: 25deb9eb6d52bb643bb931c8bea6d065, type: 2}
+  - {fileID: 11400000, guid: 8d66bc9e74223ed4fb05c4f4c19bb569, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: c3f22f70bcf339a46b1c14ad246401a3, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  cumulativeResolve: 0
+  modifiers:
+  - condition: {fileID: 11400000, guid: 7dada01cbffa57f4eafb00a8544251c8, type: 2}
+    field: 0
+    valueGetter: {fileID: 11400000, guid: 56bffad79dab48c45aa4cd15d6cd050c, type: 2}
+  - condition: {fileID: 11400000, guid: 5f9c5c78f7e1ac24dabe2c599054a0ec, type: 2}
+    field: 0
+    valueGetter: {fileID: 11400000, guid: 5412af7c59a4ea44383322caf8960fa5, type: 2}

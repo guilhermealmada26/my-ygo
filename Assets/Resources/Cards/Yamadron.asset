@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Yamadron
+  m_EditorClassIdentifier: 
+  FileName: Yamadron
+  sprite: {fileID: 21300000, guid: 751c42c29a29f3346adbb6014b7d398d, type: 3}
+  cardName: Yamadron
+  description: This monster has three fire-breathing heads and can form a sea of
+    blazing flames.
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 1600
+  def: 1600
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 0004139c25e148e4395312325ce085b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: bd2dd337466b4be4da59ca95d64c3896, type: 3}
+  atkAnimation: {fileID: 0}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: HorusDragonLVL6
+  m_EditorClassIdentifier: 
+  FileName: HorusDragonLVL6
+  sprite: {fileID: 21300000, guid: f51822b23ec30af46b96718258b472f1, type: 3}
+  cardName: Horus Dragon LVL 6
+  description: This card is unaffected by Spell effects while face-up on the field.
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 25bb906d28956274db61b15e4e97520c, type: 2}
+  atk: 2300
+  def: 1500
+  lvl: 6
+  attribute: {fileID: 11400000, guid: 0004139c25e148e4395312325ce085b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: 3b7182046e843e342a4e07ad771c6ccc, type: 3}
+  atkAnimation: {fileID: 0}

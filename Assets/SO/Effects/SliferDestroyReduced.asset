@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3c26ceb80f9484f9417f502965a9ac, type: 3}
+  m_Name: SliferDestroyReduced
+  m_EditorClassIdentifier: 
+  FileName: SliferDestroyReduced
+  type: 0
+  features:
+  - {fileID: 11400000, guid: a20c47ff4c1a3a94986ce70603892141, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 0ce457c768b07d544b785bd1ce2a33c9, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}
+  - {fileID: 11400000, guid: cdc920a62cf3e5b4280e16a00123b9c7, type: 2}
+  - {fileID: 11400000, guid: 5c3d316c03b21664daed2725c746ccf4, type: 2}
+  cardsSelection: {fileID: 0}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: SwordsmanDistantLand
+  m_EditorClassIdentifier: 
+  FileName: SwordsmanDistantLand
+  sprite: {fileID: 21300000, guid: 22d490cba4bb5ef4a8181c264f2cd39c, type: 3}
+  cardName: Swordsman from a Distant Land
+  description: 'If this card is destroyed by battle and sent to the Graveyard: Destroy
+    the monster that destroyed it  if it''s level is lower than 7.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 640bfe0194905cc46a1ccb2d0dceac03, type: 2}
+  atk: 1000
+  def: 700
+  lvl: 3
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: bb25f3a561071c1439ae6a22f4e15b15, type: 3}
+  atkAnimation: {fileID: 0}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Kazejin
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: cacd874815d0cb649b4ccee404c818b9, type: 3}
+  cardName: Suijin
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: 'Once while face-up on the field, during damage calculation in your
+    opponent''s turn, if this card is being attacked (Quick Effect): You can target
+    the attacking monster; make that target''s ATK 0 during damage calculation only.'
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 21ea2d0d7cd151e4c9715d04d94397b1, type: 2}
+  monsterType: {fileID: 11400000, guid: 5d4db893391381c4396dc79f14411251, type: 2}
+  atk: 2400
+  def: 2200
+  lvl: 7
+  hologram: {fileID: 21300000, guid: ed7592211ea165e4f9c49cffd7f3a37d, type: 3}
+  atkAnimation: {fileID: 0}

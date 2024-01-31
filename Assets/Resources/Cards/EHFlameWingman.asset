@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: EHFlameWingman
+  m_EditorClassIdentifier: 
+  FileName: EHFlameWingman
+  sprite: {fileID: 21300000, guid: e27b5a89b55a3834495c10b473cc35f6, type: 3}
+  cardName: Elemental HERO Flame Wingman
+  description: "\"Elemental HERO Avian\" + \"Elemental HERO Burstinatrix\"\r.\n\nWhen
+    this card destroys a monster by battle and sends it to the Graveyard: Inflict
+    damage to your opponent equal to the ATK of the destroyed monster in the Graveyard."
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes:
+  - {fileID: 11400000, guid: fbf9a3e8c087d36428567bd52e109581, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 283084a879a46524dac8a0e74c9c9134, type: 2}
+  atk: 2100
+  def: 1200
+  lvl: 6
+  attribute: {fileID: 11400000, guid: 21ea2d0d7cd151e4c9715d04d94397b1, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: 21e95a8353f295842a86117862ae055e, type: 3}
+  atkAnimation: {fileID: 11400000, guid: dbc3e51619e35b946a13f76a24e4f93a, type: 2}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: edc73b6f36adcb24aa21b1c99feda9d3, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: ab7fd75ae8d4ba042abc5be576420e57, type: 2}
+    min: 1
+    max: 1

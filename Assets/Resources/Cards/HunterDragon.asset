@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: HunterDragon
+  m_EditorClassIdentifier: 
+  FileName: HunterDragon
+  sprite: {fileID: 21300000, guid: df1d438c1ec99ee4ea545ffa2d690ed7, type: 3}
+  cardName: Hunter Dragon
+  description: This dragon has taken down countless prey with its sharp fangs. It
+    strikes very quickly, because if it does not strike first it is vulnerable to
+    a counter-attack.
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 1700
+  def: 100
+  lvl: 3
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 7a403718b8af40d4cba78e0d8c384b63, type: 2}
+  hologram: {fileID: 21300000, guid: 8721e31d66d15b74b90509b1f7b27213, type: 3}
+  atkAnimation: {fileID: 0}

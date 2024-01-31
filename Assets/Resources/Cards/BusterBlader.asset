@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: BusterBlader
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 779aaa910234f314b979b6b55220b4df, type: 3}
+  cardName: Buster Blader
+  description: '(Face-up effect): Gains 500 ATK for each Dragon monster your opponent
+    controls or is in their GY.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 3d532f28db068144c822f1637357adc6, type: 2}
+  atk: 2600
+  def: 2300
+  customAtkDefText: 
+  lvl: 7
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: 08f3002a613d64e42ac9510ebabe973d, type: 3}
+  atkAnimation: {fileID: 0}

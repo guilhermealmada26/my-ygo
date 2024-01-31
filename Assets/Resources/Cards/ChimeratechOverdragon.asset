@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: ChimeratechOverdragon
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 8c3ac48077901a045b28c59c1d79f9bb, type: 3}
+  cardName: Chimeratech Overdragon
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: "\"Cyber Dragon\" + 1+ Machine monsters\r.\n\nMust be Fusion Summoned.\n\nThis
+    card gains ATK/DEF equal to the number of Fusion Materials used for its Fusion
+    Summon x 800. \n\nThis card can attack your opponent's monsters a number of times
+    each Battle Phase, up to the number of Fusion Materials used for its Fusion Summon."
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: d2b6ebf3bdfd9ba48955907e60354cbf, type: 2}
+  - {fileID: 11400000, guid: 099655a1f28a47248a4d46c7be0a0311, type: 2}
+  - {fileID: 11400000, guid: 6d2271894c7bda54d8d1d62f0931cead, type: 2}
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 7b24191f361496249b62b9cc767f2a5a, type: 2}
+  atk: 0
+  def: 0
+  customAtkDefText: ?/?
+  lvl: 9
+  hologram: {fileID: 21300000, guid: 931df5b35b6f2584099e4d83a7d17e0a, type: 3}
+  atkAnimation: {fileID: 11400000, guid: 5c4b57b2966ee9a4a8c389455bfc005e, type: 2}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: fe6921822a72b9240b2951a9e7e333d9, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: 683a436505b6d924b81e2f3c28bfeeba, type: 2}
+    min: 1
+    max: 9999

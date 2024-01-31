@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1396ee4c326c3cf4a95c2f29845e280c, type: 3}
+  m_Name: MirrorWall_PayOrDestroy
+  m_EditorClassIdentifier: 
+  type: 3
+  features:
+  - {fileID: 11400000, guid: e5f1d363b0a1b03428d21957c1b69c99, type: 2}
+  - {fileID: 11400000, guid: b1368ea61de614f4289db8406b74f191, type: 2}
+  cost: {fileID: 0}
+  conditions:
+  - {fileID: 11400000, guid: 08326c6e3d81fd54e8ac3c4e7d77e80a, type: 2}
+  - {fileID: 11400000, guid: f163825e645832c40811d9446b8beb5c, type: 2}
+  message: Do you want to pay 2000 LP to maintain Mirror Wall on the field?
+  onYes:
+  - {fileID: 11400000, guid: 2f5828cea1817494ea2c915e85880678, type: 2}
+  onNo:
+  - {fileID: 11400000, guid: a5b7cfb391869ae41b93be2ebd236d08, type: 2}

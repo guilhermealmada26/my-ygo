@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: YamatoNoKami
+  m_EditorClassIdentifier: 
+  FileName: YamatoNoKami
+  sprite: {fileID: 21300000, guid: 886fae34e3a9d6d46b5ccaeafe23448b, type: 3}
+  cardName: Yamato-No-Kami
+  description: 
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 1950
+  def: 1700
+  lvl: 5
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 09e112c99cfd3a54c855721496706922, type: 2}
+  hologram: {fileID: 21300000, guid: f79d2df77996b7141b2b3fa517568953, type: 3}
+  atkAnimation: {fileID: 0}

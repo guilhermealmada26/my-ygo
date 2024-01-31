@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: EmpressMantis
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: adcce9433815e164b994dc00db12c4f2, type: 3}
+  cardName: Empress Mantis
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: Queen of an army of giant mantises whose command moves legions.
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 21ea2d0d7cd151e4c9715d04d94397b1, type: 2}
+  monsterType: {fileID: 11400000, guid: 59ed18c7e2572d5428abaa35f9d56189, type: 2}
+  atk: 2200
+  def: 1400
+  lvl: 6
+  hologram: {fileID: 21300000, guid: eaf450b451a20964f91965afc6df963c, type: 3}
+  atkAnimation: {fileID: 0}

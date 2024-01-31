@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3abe8da26c7617c479c84577e25eeb4f, type: 3}
+  m_Name: MythicTreeDragon_SS
+  m_EditorClassIdentifier: 
+  FileName: MythicTreeDragon_SS
+  type: 6
+  features:
+  - {fileID: 11400000, guid: b1368ea61de614f4289db8406b74f191, type: 2}
+  cost: {fileID: 11400000, guid: 6d55a095aa94fab4fbb79ac73a560540, type: 2}
+  conditions:
+  - {fileID: 11400000, guid: f163825e645832c40811d9446b8beb5c, type: 2}
+  - {fileID: 11400000, guid: 6d8769b5fa42f8d43abac257e83660f0, type: 2}
+  cardsGetter: {fileID: 11400000, guid: 13735398f1cc6f34a93c116b753d10e4, type: 2}
+  cardsFilter: []
+  cardsSelection: {fileID: 0}
+  position: 
+  selectPosition: 1

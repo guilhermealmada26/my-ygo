@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: InvokedCaliga
+  m_EditorClassIdentifier: 
+  FileName: InvokedCaliga
+  sprite: {fileID: 21300000, guid: e83d95564e94da84fa14d93310745039, type: 3}
+  cardName: Invoked Caliga
+  description: '"Aleister the Invoker" + 1 DARK monster.
+
+
+    Each player can attack
+    only once per turn (Face-up effect).
+
+
+    Each player can activate only one
+    effect per turn (Face-up effect).'
+  type: {fileID: 11400000, guid: e9f1e388c5867824cb2c5f5f006b7d23, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes:
+  - {fileID: 11400000, guid: 2aff30820b2a68b4a80ba3cbb5fea030, type: 2}
+  effects:
+  - {fileID: 11400000, guid: 6e825174a107a964cb3948114d6d33af, type: 2}
+  - {fileID: 11400000, guid: 2df2e9e018f2f9843b47c2ad534c15e1, type: 2}
+  atk: 1000
+  def: 1800
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 49bd76bb327d29b43a22bb3787697281, type: 2}
+  hologram: {fileID: 21300000, guid: f3dd035595db7fd4283b317b4b80f9b9, type: 3}
+  atkAnimation: {fileID: 0}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 58b1a741b3248664391acfedce269af5, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: 5b361f91895c0fc4cab9e55a4e50703b, type: 2}
+    min: 1
+    max: 1

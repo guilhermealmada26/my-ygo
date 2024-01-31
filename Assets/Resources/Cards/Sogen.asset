@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad47f3bf2015fbe40aee952417dc9a71, type: 3}
+  m_Name: Sogen
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: c29daa8b97815994aaab264a1f83e3fc, type: 3}
+  cardName: Sogen
+  description: All Warrior and Machine monsters on the field gain 200 ATK/DEF.
+  type: {fileID: 11400000, guid: 3e58ddc7dc6360f4cba7aeec4d699f11, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: f92b98773dc05954197d1a88440c6f55, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876ab7206c1faa94397032a5b9846a60, type: 3}
+  m_Name: Eldlich_Select
+  m_EditorClassIdentifier: 
+  type: 0
+  features:
+  - {fileID: 11400000, guid: a20c47ff4c1a3a94986ce70603892141, type: 2}
+  cost: {fileID: 0}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 07287f2829a5b8a40b1ec7bfa608cc0f, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: b7e6f849f9ad9f94c89b3ce15a145930, type: 2}
+  cardsSelection: {fileID: 11400000, guid: e941cdf1d83b24b408ef01b2ea35c8dc, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: Uraby
+  m_EditorClassIdentifier: 
+  FileName: Uraby
+  sprite: {fileID: 21300000, guid: 1c97e4a1f4338794eb2f1d1d0fa09909, type: 3}
+  cardName: Uraby
+  description: Fast on its feet, this dinosaur rips enemies to shreds with its sharp
+    claws.
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 1500
+  def: 800
+  lvl: 4
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 6ada704636753d441861074c0a1ca3a8, type: 2}
+  hologram: {fileID: 21300000, guid: b4f06cc9933494547a4acbdc11224f90, type: 3}
+  atkAnimation: {fileID: 0}

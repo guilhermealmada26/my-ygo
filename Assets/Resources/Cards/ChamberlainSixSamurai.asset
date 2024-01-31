@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: ChamberlainSixSamurai
+  m_EditorClassIdentifier: 
+  FileName: ChamberlainSixSamurai
+  sprite: {fileID: 21300000, guid: 7b3650de069185b43a6ec9f7b1d25626, type: 3}
+  cardName: Chamberlain of the Six Samurai
+  description: The Six Samurai are supported from the shadows by this silent and
+    mysterious warrior. His past is unknown to them, but his countless scars are
+    proof of his experience.
+  type: {fileID: 11400000, guid: 95b6604ccb3924d4889368b3bbe33e74, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  archetypes: []
+  effects: []
+  atk: 200
+  def: 2000
+  lvl: 3
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: d0d877a15db89744ebe04bdd3d4a7749, type: 2}
+  hologram: {fileID: 21300000, guid: 23d745227e0fa9741b15984c9ae1e398, type: 3}
+  atkAnimation: {fileID: 0}

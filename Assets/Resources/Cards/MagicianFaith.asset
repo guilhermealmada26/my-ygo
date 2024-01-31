@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: MagicianFaith
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: f39d6b67fa42c8848b1bbb30ff0e7a6a, type: 3}
+  cardName: Magician of Faith
+  description: 'FLIP: Return 1 Spell Card in your GY to your hand.'
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 0a8190da67173c64dba481b9b8bd4a0f, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 39c6a0f79b6600448b8d60701a51008c, type: 2}
+  atk: 300
+  def: 400
+  customAtkDefText: 
+  lvl: 1
+  attribute: {fileID: 11400000, guid: 4eaf03bcc45af67469fb5431cda021f8, type: 2}
+  monsterType: {fileID: 11400000, guid: 5d4db893391381c4396dc79f14411251, type: 2}
+  hologram: {fileID: 21300000, guid: 0e285f596db8a7749a41c697f4a3de45, type: 3}
+  atkAnimation: {fileID: 0}

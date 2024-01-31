@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212c9bc99697d444385641eb15e6f11b, type: 3}
+  m_Name: CardDestructionPlayer
+  m_EditorClassIdentifier: 
+  type: 0
+  features: []
+  cost: {fileID: 0}
+  conditions: []
+  target: {fileID: 11400000, guid: 9f9ecc5ed2868d0458540dfdbd70c487, type: 2}
+  value: {fileID: 11400000, guid: 86f50ee391c37444c8caa88ca62ed88d, type: 2}

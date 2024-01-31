@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb18583ff29d45ab6f61170e5f289, type: 3}
+  m_Name: BeastKingBarbaros
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 6348953fec70f01499b85ba617c1be4d, type: 3}
+  cardName: Beast King Barbaros
+  description: "You can Normal Summon/Set this card without Tributing, but its ATK
+    becomes 1900. \n\nYou can Tribute 3 monsters to Tribute Summon (but not Set)
+    this card. If Summoned this way: Destroy all cards your opponent controls."
+  type: {fileID: 11400000, guid: a6692c5e332f1784d8182da79473998d, type: 2}
+  limitation: {fileID: 11400000, guid: 5f313634df87ddd4b8cb1a516fb9bfc6, type: 2}
+  archetypes: []
+  effects:
+  - {fileID: 11400000, guid: 5016ad678d670ce4cb92c35ec10fcf69, type: 2}
+  - {fileID: 11400000, guid: ee41cbfa1f4fe114cbb71e8a15721a3b, type: 2}
+  - {fileID: 11400000, guid: 01add923402c874418f3cfbdaea9ca23, type: 2}
+  - {fileID: 11400000, guid: 891df006d94288948880a89f1914a41f, type: 2}
+  atk: 3000
+  def: 1200
+  customAtkDefText: 
+  lvl: 8
+  attribute: {fileID: 11400000, guid: 88d2d2a23aec7b045bedf03f9f6c49b3, type: 2}
+  monsterType: {fileID: 11400000, guid: 49bd76bb327d29b43a22bb3787697281, type: 2}
+  hologram: {fileID: 21300000, guid: b13f59a0a61a8754eb45a8ac9aaf4663, type: 3}
+  atkAnimation: {fileID: 11400000, guid: e9c6d9c7cba32404289caef222f42722, type: 2}

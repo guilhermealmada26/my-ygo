@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31423a9267ee20a43b2c52ff99e356ee, type: 3}
+  m_Name: GateGuardian
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: ac96ad1f085f5924785eac6b4348fdf8, type: 3}
+  cardName: Gate Guardian
+  type: {fileID: 11400000, guid: acc828958dd0ec047be305c443ed4754, type: 2}
+  limitation: {fileID: 11400000, guid: 9359397432356504d8a7ac05f4f20f25, type: 2}
+  description: '"Sanga of the Thunder" + "Kazejin" + "Suijin".'
+  archetypes: []
+  effects: []
+  attribute: {fileID: 11400000, guid: 45559c54f6e39be45a8666b7d621fbb1, type: 2}
+  monsterType: {fileID: 11400000, guid: 5d4db893391381c4396dc79f14411251, type: 2}
+  atk: 3750
+  def: 3400
+  lvl: 11
+  hologram: {fileID: 21300000, guid: 669ed728f2fb05945b281febb969ee92, type: 3}
+  atkAnimation: {fileID: 11400000, guid: 0709ec66cf47f9943a0fb301ff5ded43, type: 2}
+  doNotAllowSubstitutes: 0
+  materials:
+  - filter: {fileID: 11400000, guid: 1489b6c6f2d7c9040b20922a53b0ce3c, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: f423f9e001add444f98671411bbe2026, type: 2}
+    min: 1
+    max: 1
+  - filter: {fileID: 11400000, guid: 94f93cfa0448a6c4aabe8e190ffc3605, type: 2}
+    min: 1
+    max: 1

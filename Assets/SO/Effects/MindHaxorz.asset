@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3ed10d02381ef441b7c7538440aa4c1, type: 3}
+  m_Name: MindHaxorz
+  m_EditorClassIdentifier: 
+  FileName: MindHaxorz
+  type: 1
+  features: []
+  cost: {fileID: 11400000, guid: cab56e8ce3d7dca4e94c9d09cd53fa28, type: 2}
+  conditions: []
+  cardsGetter: {fileID: 11400000, guid: 3b440509992700f46bb7e92eb6682839, type: 2}
+  cardsFilter:
+  - {fileID: 11400000, guid: 0254831505f6d204c89b6e526e814fe2, type: 2}
+  cardsSelection: {fileID: 0}
+  message: Face-down cards in opponent's hand and field.
